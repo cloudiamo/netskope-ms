@@ -1,0 +1,271 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath/>
+    <configType>json</configType>
+    <createTemplateId/>
+    <createTemplateObject/>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects/>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>ipsec_pops</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="variable_name" name="params.variable_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="region_name" name="params.region_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="location_site" name="params.location_site" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="gateway_address" name="params.gateway_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="probeip_address" name="params.probeip_address" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="distance_value" name="params.distance_value" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="acceptingtunnels_boolean" name="params.acceptingtunnels_boolean" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="bandwidth_values" name="params.options.0.bandwidth_values" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="ikeversion_value" name="params.options.0.phase1.0.ikeversion_value" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="encryptionalgos_names" name="params.options.0.phase1.0.encryptionalgos_names" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="intergrityalgo_names" name="params.options.0.phase1.0.intergrityalgo_names" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="dhgroups" name="params.options.0.phase1.0.dhgroups" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="salifetime" name="params.options.0.phase1.0.salifetime" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="dpd_boolean" name="params.options.0.phase1.0.dpd_boolean" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="encryptionnalgos_names" name="params.options.0.phase2.0.encryptionnalgos_names" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="integrityalgo_names" name="params.options.0.phase2.0.integrityalgo_names" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="encryptionnalgo_names" name="params.options.0.phase2.0.encryptionnalgo_names" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="encryptionalgo_names" name="params.options.0.phase1.0.encryptionalgo_names" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="dhgroup_values" name="params.options.0.phase2.0.dhgroup_values" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="pfs_boolean" name="params.options.0.phase2.0.pfs_boolean" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="salifetime" name="params.options.0.phase2.0.salifetime" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+    &quot;status&quot;: 200,
+    &quot;total&quot;: 103,
+    &quot;result&quot;: [
+        {
+            &quot;id&quot;: &quot;0X00D2&quot;,
+            &quot;name&quot;: &quot;akl1&quot;,
+            &quot;region&quot;: &quot;NZ-AUK&quot;,
+            &quot;location&quot;: &quot;Auckland, AUK, NZ&quot;,
+            &quot;gateway&quot;: &quot;163.116.194.38&quot;,
+            &quot;probeip&quot;: &quot;10.194.6.216&quot;,
+            &quot;distance&quot;: &quot;7457 miles&quot;,
+            &quot;acceptingtunnels&quot;: true,
+            &quot;options&quot;: {
+                &quot;phase1&quot;: {
+                    &quot;ikeversion&quot;: &quot;2&quot;,
+                    &quot;encryptionalgo&quot;: &quot;AES128-CBC, AES192-CBC, AES256-CBC&quot;,
+                    &quot;integrityalgo&quot;: &quot;SHA1, SHA256, SHA384, SHA512&quot;,
+                    &quot;dhgroup&quot;: &quot;14, 15, 16, 18&quot;,
+                    &quot;salifetime&quot;: &quot;8h&quot;,
+                    &quot;dpd&quot;: true
+                },
+                &quot;phase2&quot;: {
+                    &quot;encryptionalgo&quot;: &quot;AES128-CBC, AES128-GCM, AES192-GCM, AES256-CBC, AES256-GCM, Null&quot;,
+                    &quot;integrityalgo&quot;: &quot;SHA1, SHA256, SHA384, SHA512&quot;,
+                    &quot;dhgroup&quot;: &quot;14, 15, 16, 18&quot;,
+                    &quot;pfs&quot;: true,
+                    &quot;salifetime&quot;: &quot;2h&quot;
+                }
+            },
+            &quot;bandwidth&quot;: &quot;50 mbps, 100 mbps, 150 mbps, 200 mbps, 250 mbps&quot;
+        },
+        {
+            &quot;id&quot;: &quot;0x00C2&quot;,
+            &quot;name&quot;: &quot;ymq1&quot;,
+            &quot;region&quot;: &quot;CA-QC&quot;,
+            &quot;location&quot;: &quot;Montreal, QC, CA&quot;,
+            &quot;gateway&quot;: &quot;163.116.142.38&quot;,
+            &quot;probeip&quot;: &quot;10.142.6.216&quot;,
+            &quot;distance&quot;: &quot;1506 miles&quot;,
+            &quot;acceptingtunnels&quot;: true,
+            &quot;options&quot;: {
+                &quot;phase1&quot;: {
+                    &quot;ikeversion&quot;: &quot;2&quot;,
+                    &quot;encryptionalgo&quot;: &quot;AES128-CBC, AES192-CBC, AES256-CBC&quot;,
+                    &quot;integrityalgo&quot;: &quot;SHA1, SHA256, SHA384, SHA512&quot;,
+                    &quot;dhgroup&quot;: &quot;14, 15, 16, 18&quot;,
+                    &quot;salifetime&quot;: &quot;8h&quot;,
+                    &quot;dpd&quot;: true
+                },
+                &quot;phase2&quot;: {
+                    &quot;encryptionalgo&quot;: &quot;AES128-CBC, AES128-GCM, AES192-GCM, AES256-CBC, AES256-GCM, Null&quot;,
+                    &quot;integrityalgo&quot;: &quot;SHA1, SHA256, SHA384, SHA512&quot;,
+                    &quot;dhgroup&quot;: &quot;14, 15, 16, 18&quot;,
+                    &quot;pfs&quot;: true,
+                    &quot;salifetime&quot;: &quot;2h&quot;
+                }
+            },
+            &quot;bandwidth&quot;: &quot;50 mbps, 100 mbps, 150 mbps, 200 mbps, 250 mbps&quot;
+        },
+        {
+            &quot;id&quot;: &quot;0x00C0&quot;,
+            &quot;name&quot;: &quot;yvr1&quot;,
+            &quot;region&quot;: &quot;CA-BC&quot;,
+            &quot;location&quot;: &quot;Vancouver, BC, CA&quot;,
+            &quot;gateway&quot;: &quot;163.116.141.38&quot;,
+            &quot;probeip&quot;: &quot;10.141.6.216&quot;,
+            &quot;distance&quot;: &quot;1762 miles&quot;,
+            &quot;acceptingtunnels&quot;: true,
+            &quot;options&quot;: {
+                &quot;phase1&quot;: {
+                    &quot;ikeversion&quot;: &quot;2&quot;,
+                    &quot;encryptionalgo&quot;: &quot;AES128-CBC, AES192-CBC, AES256-CBC&quot;,
+                    &quot;integrityalgo&quot;: &quot;SHA1, SHA256, SHA384, SHA512&quot;,
+                    &quot;dhgroup&quot;: &quot;14, 15, 16, 18&quot;,
+                    &quot;salifetime&quot;: &quot;8h&quot;,
+                    &quot;dpd&quot;: true
+                },
+                &quot;phase2&quot;: {
+                    &quot;encryptionalgo&quot;: &quot;AES128-CBC, AES128-GCM, AES192-GCM, AES256-CBC, AES256-GCM, Null&quot;,
+                    &quot;integrityalgo&quot;: &quot;SHA1, SHA256, SHA384, SHA512&quot;,
+                    &quot;dhgroup&quot;: &quot;14, 15, 16, 18&quot;,
+                    &quot;pfs&quot;: true,
+                    &quot;salifetime&quot;: &quot;2h&quot;
+                }
+            },
+            &quot;bandwidth&quot;: &quot;50 mbps, 100 mbps, 150 mbps, 200 mbps, 250 mbps&quot;
+        }
+    ]
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$[&apos;result&apos;].*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$[&apos;id&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+          <xpath>$[&apos;name&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;region_name&gt;.*)$@</regexp>
+          <xpath>$[&apos;region&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;location_site&gt;.*)$@</regexp>
+          <xpath>$[&apos;location&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;gateway_address&gt;.*)$@</regexp>
+          <xpath>$[&apos;gateway&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;probeip_address&gt;.*)$@</regexp>
+          <xpath>$[&apos;probeip&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;distance_value&gt;.*)$@</regexp>
+          <xpath>$[&apos;distance&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;acceptingtunnels_boolean&gt;.*)$@</regexp>
+          <xpath>$[&apos;acceptingtunnels&apos;]</xpath>
+        </line>
+        <line>
+          <array name="options">
+            <lines>
+              <line>
+                <array name="phase1">
+                  <lines>
+                    <line>
+                      <regexp>@^(?&lt;ikeversion_value&gt;.*)$@</regexp>
+                      <xpath>$[&apos;ikeversion&apos;]</xpath>
+                    </line>
+                    <line>
+                      <regexp>@^(?&lt;encryptionalgo_names&gt;.*)$@</regexp>
+                      <xpath>$[&apos;encryptionalgo&apos;]</xpath>
+                    </line>
+                    <line>
+                      <regexp>@^(?&lt;intergrityalgo_names&gt;.*)$@</regexp>
+                      <xpath>$[&apos;intergrityalgo&apos;]</xpath>
+                    </line>
+                    <line>
+                      <regexp>@^(?&lt;dhgroups&gt;.*)$@</regexp>
+                      <xpath>$[&apos;dhgroup&apos;]</xpath>
+                    </line>
+                    <line>
+                      <regexp>@^(?&lt;salifetime&gt;.*)$@</regexp>
+                      <xpath>$[&apos;salifetime&apos;]</xpath>
+                    </line>
+                    <line>
+                      <regexp>@^(?&lt;dpd_boolean&gt;.*)$@</regexp>
+                      <xpath>$[&apos;dpd&apos;]</xpath>
+                    </line>
+                  </lines>
+                  <xpath>$[&apos;phase1&apos;]</xpath>
+                </array>
+                <regexp/>
+                <xpath/>
+              </line>
+              <line>
+                <array name="phase2">
+                  <lines>
+                    <line>
+                      <regexp>@^(?&lt;encryptionnalgo_names&gt;.*)$@</regexp>
+                      <xpath>$[&apos;encryptionnalgo&apos;]</xpath>
+                    </line>
+                    <line>
+                      <regexp>@^(?&lt;integrityalgo_names&gt;.*)$@</regexp>
+                      <xpath>$[&apos;integrityalgo&apos;]</xpath>
+                    </line>
+                    <line>
+                      <regexp>@^(?&lt;dhgroup_values&gt;.*)$@</regexp>
+                      <xpath>$[&apos;dhgroup&apos;]</xpath>
+                    </line>
+                    <line>
+                      <regexp>@^(?&lt;pfs_boolean&gt;.*)$@</regexp>
+                      <xpath>$[&apos;pfs&apos;]</xpath>
+                    </line>
+                    <line>
+                      <regexp>@^(?&lt;salifetime&gt;.*)$@</regexp>
+                      <xpath>$[&apos;salifetime&apos;]</xpath>
+                    </line>
+                  </lines>
+                  <xpath>$[&apos;phase2&apos;]</xpath>
+                </array>
+                <regexp/>
+                <xpath/>
+              </line>
+              <line>
+                <regexp>@^(?&lt;bandwidth_values&gt;.*)$@</regexp>
+                <xpath>$[&apos;bandwidth&apos;]</xpath>
+              </line>
+            </lines>
+            <xpath>$[&apos;options&apos;]</xpath>
+          </array>
+          <regexp/>
+          <xpath/>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/api/v2/steering/ipsec/pops?offset=0&amp;limit=100</xpath>
+  </command>
+  <command name="CREATE"/>
+  <command name="READ"/>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE"/>
+  <command name="LIST"/>
+  <displayName>ipsec_pops</displayName>
+  <order>0</order>
+</ObjectDefinition>

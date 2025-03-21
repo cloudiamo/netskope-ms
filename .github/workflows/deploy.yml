@@ -9,7 +9,7 @@ on:
       - master
 
 env:
-  CONTAINER_NAME: ubiqube/cld-cisco-ms-installer
+  CONTAINER_NAME: ubiqube/cld-netskope-ms-installer
 
 jobs:
   build-and-publish:

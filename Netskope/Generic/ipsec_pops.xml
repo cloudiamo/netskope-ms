@@ -5,15 +5,15 @@
     <displayField>object_id</displayField>
     <order>0</order>
     <visibility/>
-    <wfConstraintsPath/>
+    <wfConstraintsPath></wfConstraintsPath>
     <configType>json</configType>
-    <createTemplateId/>
-    <createTemplateObject/>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
     <defaultDisplay>false</defaultDisplay>
     <dynamic>false</dynamic>
     <importIfMandatoryPresent>false</importIfMandatoryPresent>
     <maxInstances>0</maxInstances>
-    <relatedObjects/>
+    <relatedObjects></relatedObjects>
     <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
     <name>ipsec_pops</name>
     <group>Default</group>
@@ -214,8 +214,8 @@
                   </lines>
                   <xpath>$[&apos;phase1&apos;]</xpath>
                 </array>
-                <regexp/>
-                <xpath/>
+                <regexp></regexp>
+                <xpath></xpath>
               </line>
               <line>
                 <array name="phase2">
@@ -243,8 +243,8 @@
                   </lines>
                   <xpath>$[&apos;phase2&apos;]</xpath>
                 </array>
-                <regexp/>
-                <xpath/>
+                <regexp></regexp>
+                <xpath></xpath>
               </line>
               <line>
                 <regexp>@^(?&lt;bandwidth_values&gt;.*)$@</regexp>
@@ -253,12 +253,12 @@
             </lines>
             <xpath>$[&apos;options&apos;]</xpath>
           </array>
-          <regexp/>
-          <xpath/>
+          <regexp></regexp>
+          <xpath></xpath>
         </line>
       </lines>
     </parser>
-    <xpath>/api/v2/steering/ipsec/pops?offset=0&amp;limit=100</xpath>
+    <xpath>/api/v2/steering/ipsec/pops?offset=0&amp;limit=1000</xpath>
   </command>
   <command name="CREATE"/>
   <command name="READ"/>

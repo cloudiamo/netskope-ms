@@ -16,7 +16,7 @@
     <relatedObjects></relatedObjects>
     <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
     <name>MS_Tunnels IPSec</name>
-    <group>Default</group>
+    <group>SASE|SSE</group>
     <importonce>false</importonce>
     <importrank>0</importrank>
     <reorderinstances>false</reorderinstances>

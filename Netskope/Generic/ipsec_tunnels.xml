@@ -15,7 +15,7 @@
     <maxInstances>0</maxInstances>
     <relatedObjects></relatedObjects>
     <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
-    <name>MS_Tunnels IPSec</name>
+    <name>IPSec Tunnels</name>
     <group>SASE|SSE</group>
     <importonce>false</importonce>
     <importrank>0</importrank>
@@ -24,6 +24,9 @@
     <sortauto>false</sortauto>
     <sortnumerical>false</sortnumerical>
     <sortvariable>params._order</sortvariable>
+    <directoryNames>
+      <directoryName>IPSec</directoryName>
+    </directoryNames>
   </information>
   <variables frozen="0">
     <variable displayName="id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
@@ -524,6 +527,6 @@
     <xpath>DELETE</xpath>
   </command>
   <command name="LIST"/>
-  <displayName>MS_Tunnels IPSec</displayName>
+  <displayName>IPSec Tunnels</displayName>
   <order>0</order>
 </ObjectDefinition>

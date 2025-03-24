@@ -16,7 +16,7 @@
     <relatedObjects/>
     <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
     <name>ipsec_pops</name>
-    <group>Default</group>
+    <group>SASE|SSE</group>
     <importonce>false</importonce>
     <importrank>0</importrank>
     <reorderinstances>false</reorderinstances>

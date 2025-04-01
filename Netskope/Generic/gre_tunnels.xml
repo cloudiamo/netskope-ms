@@ -3,7 +3,7 @@
     <icon>none</icon>
     <description></description>
     <displayField>object_id</displayField>
-    <order>0</order>
+    <order>10</order>
     <visibility/>
     <wfConstraintsPath></wfConstraintsPath>
     <configType>json</configType>
@@ -24,21 +24,44 @@
     <sortauto>false</sortauto>
     <sortnumerical>false</sortnumerical>
     <sortvariable>params._order</sortvariable>
+    <directoryNames>
+      <directoryName>GRE</directoryName>
+    </directoryNames>
   </information>
   <variables frozen="0">
-    <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="pop_name" name="params.pops.0.pop_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="site_name" name="params.site_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="gateway_ip" name="params.pops.0.gateway_ip" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="srcipidentity" name="params.srcipidentity" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="probeip" name="params.pops.0.probeip" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="template" name="params.template" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="vendor" name="params.vendor" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="sourcetype" name="params.sourcetype" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="notes" name="params.notes" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="bandwidth" name="params.bandwidth" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="enabled" name="params.enabled" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="version" name="params.version" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="ID" name="params.object_id" startIncrement="0" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Site Name" name="params.site_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Enable" name="params.enable" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="6" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="true" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Source IP Address" name="params.srcipidentity" startIncrement="0" type="IpAddress" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="130" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Maximum Bandwidth" name="params.bandwidth" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="7" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="1000" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="1 Gbps">1000</values>
+        <values displayValue="500 Mbps">500</values>
+        <values displayValue="250 Mbps">250</values>
+      </values>
+    </variable>
+    <variable displayName="pop_name" name="params.pops.0.pop_name" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>gre_pops</class>
+      </classes>
+    </variable>
+    <variable displayName="vendor" name="params.vendor" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="8" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="Default" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="sourcetype" name="params.sourcetype" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="7" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" default="User" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="User">User</values>
+        <values displayValue="Machine">Machine</values>
+        <values displayValue="IoT">IoT</values>
+        <values displayValue="Guest Wifi">Guest Wifi</values>
+        <values displayValue="Mixed">Mixed</values>
+      </values>
+    </variable>
+    <variable displayName="xff_enable" name="params.xff_enable" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="8" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="true">true</values>
+        <values displayValue="false">false</values>
+      </values>
+    </variable>
+    <variable displayName="xff ip list" name="params.xff.0.ip" startIncrement="0" type="IpAddress" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="130" displayOrder="9" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
   </variables>
   <example>
     <content>{
@@ -257,81 +280,114 @@
           <xpath></xpath>
         </line>
         <line>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
           <regexp>@^(?&lt;srcipidentity&gt;.*)$@</regexp>
           <xpath>$[&apos;srcipidentity&apos;]</xpath>
-        </line>
-        <line>
-          <regexp>@^(?&lt;template&gt;.*)$@</regexp>
-          <xpath>$[&apos;template&apos;]</xpath>
-        </line>
-        <line>
-          <regexp>@^(?&lt;vendor&gt;.*)$@</regexp>
-          <xpath>$[&apos;vendor&apos;]</xpath>
-        </line>
-        <line>
-          <regexp>@^(?&lt;sourcetype&gt;.*)$@</regexp>
-          <xpath>$[&apos;sourcetype&apos;]</xpath>
-        </line>
-        <line>
-          <regexp>@^(?&lt;notes&gt;.*)$@</regexp>
-          <xpath>$[&apos;notes&apos;]</xpath>
         </line>
         <line>
           <regexp>@^(?&lt;bandwidth&gt;.*)$@</regexp>
           <xpath>$[&apos;bandwidth&apos;]</xpath>
         </line>
-        <line>
-          <regexp>@^(?&lt;enabled&gt;.*)$@</regexp>
-          <xpath>$[&apos;enabled&apos;]</xpath>
-        </line>
-        <line>
-          <array name="options">
-            <xpath>$[options].*</xpath>
-          </array>
-          <regexp></regexp>
-          <xpath></xpath>
-        </line>
-        <line>
-          <regexp>@^(?&lt;version&gt;.*)$@</regexp>
-          <xpath>$[&apos;version&apos;]</xpath>
-        </line>
       </lines>
     </parser>
-    <xpath>/api/v2/steering/gre/tunnels</xpath>
+    <xpath>/api/v2/steering/gre/tunnels?sortby=site&amp;sortorder=asc</xpath>
   </command>
   <command name="CREATE">
     <operation><![CDATA[{literal}{{/literal}
-    "enable": "{$params.enable}",
-    "notes": "{$params.notes}",
-    "options":
-        {literal}{{/literal}
-            "xff":
-                {literal}{{/literal}
-                    "enable": "{$params.options.xff.enable}",
-                    "iplist": ["{$params.options.xff.iplist.0.ip1}", "{$params.options.xff.iplist.0.ip2}"]
-                {literal}}{/literal}
-        {literal}}{/literal},
-    "pops": ["{$params.pops.0.pop1}", "{$params.pops.0.pop2}"],
-    "site": "{$params.site}",
+	{if $params.enable == true}
+    "enable": true,
+    {else}    
+    "enable": false,
+    {/if}
+    {if isset($params.pops)}
+    "pops": [
+		{foreach $params.pops as $pop}
+    	"{$pop.pop_name}"{if !$pop@last}, {/if}
+    	{/foreach}
+    ],
+	{/if}
+    "site": "{$params.site_name}",
     "sourcetype": "{$params.sourcetype}",
     "srcipidentity": "{$params.srcipidentity}",
-    "template": "{$params.template}",
-    "vendor": "{$params.vendor}"
-  {literal}}{/literal}]]></operation>
+    {if isset($params.vendor)}
+    "vendor": "{$params.vendor}",
+    {/if}
+    "bandwidth": {$params.bandwidth},
+    "options":
+    {literal}{{/literal}
+    "xff":
+    	{literal}{{/literal}
+		{if $params.xff_enable == true}
+        "enable": true,
+		{if isset($params.xff)}
+        "iplist": [
+			{foreach $params.xff as $ip_list}
+                "{$ip_list.ip}"{if !$ip_list@last}, {/if}
+	    	{/foreach}
+	    ]
+    	{/if}
+        {else if}
+        "enable": false
+        {/if}
+    	{literal}}{/literal}
+    {literal}}{/literal}
+{literal}}{/literal}]]></operation>
     <rest>POST</rest>
     <xpath>/api/v2/steering/gre/tunnels</xpath>
   </command>
   <command name="READ"/>
   <command name="UPDATE">
-    <rest>/api/v2/steering/gre/tunnels/:id</rest>
+    <operation><![CDATA[{literal}{{/literal}
+	{if $params.enable == true}
+    "enable": true,
+    {else}    
+    "enable": false,
+    {/if}
+    {if isset($params.pops)}
+    "pops": [
+		{foreach $params.pops as $pop}
+    	"{$pop.pop_name}"{if !$pop@last}, {/if}
+    	{/foreach}
+    ],
+	{/if}
+    "site": "{$params.site_name}",
+    "sourcetype": "{$params.sourcetype}",
+    "srcipidentity": "{$params.srcipidentity}",
+    {if isset($params.vendor)}
+    "vendor": "{$params.vendor}",
+    {/if}
+    "bandwidth": {$params.bandwidth},
+    "options":
+    {literal}{{/literal}
+    "xff":
+    	{literal}{{/literal}
+		{if $params.xff_enable == true}
+        "enable": true,
+		{if isset($params.xff)}
+        "iplist": [
+			{foreach $params.xff as $ip_list}
+                "{$ip_list.ip}"{if !$ip_list@last}, {/if}
+	    	{/foreach}
+	    ]
+    	{/if}
+        {else if}
+        "enable": false
+        {/if}
+    	{literal}}{/literal}
+    {literal}}{/literal}
+{literal}}{/literal}]]></operation>
+    <rest>/api/v2/steering/gre/tunnels/{$gre_tunnels.$object_id.object_id}</rest>
     <xpath>PATCH</xpath>
   </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE">
-    <rest>/api/v2/steering/gre/tunnels/:id</rest>
-    <xpath>DELETE</xpath>
+    <rest>DELETE</rest>
+    <xpath>/api/v2/steering/gre/tunnels/{$gre_tunnels.$object_id.object_id}</xpath>
   </command>
   <command name="LIST"/>
   <displayName>GRE Tunnels</displayName>
-  <order>0</order>
+  <order>10</order>
 </ObjectDefinition>

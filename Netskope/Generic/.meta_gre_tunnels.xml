@@ -10,14 +10,6 @@
             <value>CommandDefinition</value>
         </entry>
         <entry>
-            <key>MANUFACTURER</key>
-            <value>12032025</value>
-        </entry>
-        <entry>
-            <key>FILE_TYPE</key>
-            <value>text</value>
-        </entry>
-        <entry>
             <key>TAG</key>
             <value>string</value>
         </entry>
@@ -28,6 +20,14 @@
         <entry>
             <key>MODEL</key>
             <value>12032025</value>
+        </entry>
+        <entry>
+            <key>MANUFACTURER</key>
+            <value>12032025</value>
+        </entry>
+        <entry>
+            <key>FILE_TYPE</key>
+            <value>text</value>
         </entry>
         <entry>
             <key>DISPLAYNAME</key>

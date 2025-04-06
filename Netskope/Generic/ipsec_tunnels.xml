@@ -492,7 +492,7 @@
   </command>
   <command name="CREATE">
     <operation><![CDATA[{literal}{{/literal}
-"bandwidth": "{$params.bandwidth}",
+"bandwidth": {$params.bandwidth},
 {if $params.enable == true}
 "enable": true,
 {else}

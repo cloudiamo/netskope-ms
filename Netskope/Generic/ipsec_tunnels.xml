@@ -493,18 +493,40 @@
   <command name="CREATE">
     <operation><![CDATA[{literal}{{/literal}
 "bandwidth": "{$params.bandwidth}",
-"enable": "{$params.enable}",
+{if $params.enable == true}
+"enable": true,
+{else}
+"enable": false,
+{/if}
 "encryption": "{$params.encryption}",
 "notes": "{$params.notes}",
 "options": {literal}{{/literal}
-    "reauth": "{$params.options.reauth}",
-    "rekey": "{$params.options.rekey}",
+    {if $params.options.reauth == true}
+      "reauth": true,
+    {else}
+    "reauth": false,
+    {/if}
+    {if $params.options.rekey == true}
+    "rekey": true,
+    {else}
+    "rekey": false,
+    {/if}
     "xff": {literal}{{/literal}
-        "enable": "{$params.options.xff.enable}",
+        {if $params.options.xff.enable == true}
+        "enable": true,
+        {else}
+         "enable": false,
+        {/if}
+    {if isset($params.options.xff.iplist)}
         "iplist": ["{$params.options.xff.iplist.0}", "{$params.options.xff.iplist.1}"]
+    {/if}
     {literal}}{/literal}
 {literal}}{/literal},
-"pops": ["{$params.pops.0}", "{$params.pops.1}"],
+"pops": [
+{foreach $params.pops as $pop}
+"{$pop.pop_name}"{if !$pop@last}, {/if}
+{/foreach}
+],
 "psk": "{$params.psk}",
 "site": "{$params.site}",
 "sourcetype": "{$params.sourcetype}",

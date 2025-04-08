@@ -513,11 +513,12 @@
     {/if}
     "xff": {literal}{{/literal}
         {if $params.options.xff.enable == true}
-        "enable": true,
+        "enable": true
         {else}
-         "enable": false,
+         "enable": false
         {/if}
     {if isset($params.options.xff.iplist)}
+        ,
         "iplist": ["{$params.options.xff.iplist.0}", "{$params.options.xff.iplist.1}"]
     {/if}
     {literal}}{/literal}

@@ -541,13 +541,13 @@
   </command>
   <command name="READ"/>
   <command name="UPDATE">
-    <rest>/api/v2/steering/ipsec/tunnels/:id</rest>
-    <xpath>PATCH</xpath>
+    <rest>PATCH</rest>
+    <xpath>/api/v2/steering/ipsec/tunnels/{$params.object_id}</xpath>
   </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE">
-    <rest>/api/v2/steering/ipsec/tunnels/:id</rest>
-    <xpath>DELETE</xpath>
+    <rest>DELETE/</rest>
+    <xpath>api/v2/steering/ipsec/tunnels/{$params.object_id}</xpath>
   </command>
   <command name="LIST"/>
   <displayName>IPSec Tunnels</displayName>

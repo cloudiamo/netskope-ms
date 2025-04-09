@@ -546,7 +546,7 @@
   </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE">
-    <rest>DELETE/</rest>
+    <rest>DELETE</rest>
     <xpath>api/v2/steering/ipsec/tunnels/{$params.object_id}</xpath>
   </command>
   <command name="LIST"/>

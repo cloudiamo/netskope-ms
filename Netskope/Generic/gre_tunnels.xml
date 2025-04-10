@@ -291,6 +291,10 @@
           <regexp>@^(?&lt;bandwidth&gt;.*)$@</regexp>
           <xpath>$[&apos;bandwidth&apos;]</xpath>
         </line>
+        <line>
+          <regexp>@^(?&lt;enable&gt;.*)$@</regexp>
+          <xpath>$[&apos;enabled&apos;]</xpath>
+        </line>
       </lines>
     </parser>
     <xpath>/api/v2/steering/gre/tunnels?sortby=site&amp;sortorder=asc</xpath>

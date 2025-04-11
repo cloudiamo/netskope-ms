@@ -198,11 +198,11 @@
       </section>
       <lines>
         <line>
-          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <regexp>@^(?&lt;id&gt;.*)$@</regexp>
           <xpath>$[&apos;id&apos;]</xpath>
         </line>
         <line>
-          <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
           <xpath>$[&apos;name&apos;]</xpath>
         </line>
         <line>
@@ -214,7 +214,7 @@
           <xpath>$[&apos;location&apos;]</xpath>
         </line>
         <line>
-          <regexp>@^(?&lt;gateway_address&gt;.*)$@</regexp>
+          <regexp>@^(?&lt;gateway_ip&gt;.*)$@</regexp>
           <xpath>$[&apos;gateway&apos;]</xpath>
         </line>
         <line>

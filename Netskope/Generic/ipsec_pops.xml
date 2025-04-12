@@ -190,7 +190,7 @@
   </example>
   <command name="IMPORT">
     <operation><![CDATA[GET]]></operation>
-    <post_template>{assign_object_variable var=&quot;pop_label&quot; value=&quot;{$params.variable_name}-{$params.region_name}&quot;}</post_template>
+    <post_template>{assign_object_variable var=&quot;pop_label&quot; value=&quot;{$params.object_id}-{$params.region_name}&quot;}</post_template>
     <parser>
       <section>
         <regexp>@^\s \s*$@</regexp>

@@ -515,7 +515,7 @@
 
 "pops": [
   {foreach $params.pops as $pop}
-    "{$ipsec_pops.{$pop.pop_name}.variable_name|default:''}"{if !$pop@last}, {/if}
+    "{$ipsec_pops.{$pop.pop_name}.object_id|default:''}"{if !$pop@last}, {/if}
   {/foreach}
 ],
 

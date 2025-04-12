@@ -528,6 +528,7 @@
 
 "psk": "{$params.psk|default:'bhEiMx2fhfHitBVvdxoxx27qrMj4HwLV'}",
 "encryption": "{$params.encryption|default:'AES128-CBC'}",
+"notes": "{$params.notes}",	    
 
 {if isset($params.vendor)}
 "vendor": "{$params.vendor|default:'Default'}",

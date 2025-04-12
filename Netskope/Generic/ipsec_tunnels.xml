@@ -511,8 +511,11 @@
   </command>
   <command name="CREATE">
     <operation><![CDATA[{literal}{{/literal}
-"enable": {$params.enable|default:'false'},
-
+{if $params.enable == true}
+ "enable": true,
+ {else}
+ "enable": false,
+ {/if}
 "pops": [
   {foreach $params.pops as $pop}
     "{$ipsec_pops.{$pop.pop_name}.object_id|default:''}"{if !$pop@last}, {/if}

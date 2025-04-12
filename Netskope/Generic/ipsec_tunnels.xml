@@ -1,6 +1,5 @@
 <ObjectDefinition>
   <information>
-    <icon>none</icon>
     <description></description>
     <displayField>object_id</displayField>
     <order>10</order>
@@ -367,7 +366,7 @@
           <xpath></xpath>
         </line>
         <line>
-          <regexp>@^(?&lt;site_name&gt;.*)$@</regexp>
+          <regexp>@^(?&lt;site&gt;.*)$@</regexp>
           <xpath>$[&apos;site&apos;]</xpath>
         </line>
         <line>
@@ -516,7 +515,7 @@
 
 "pops": [
   {foreach $params.pops as $pop}
-    "{$ipsec_pops.{$pop.pop_name}.variable_name|default:''}"{if !$pop@last}, {/if}
+    "{$ipsec_pops.{$pop.pop_name}.object_id|default:''}"{if !$pop@last}, {/if}
   {/foreach}
 ],
 
@@ -528,6 +527,7 @@
 
 "psk": "{$params.psk|default:'bhEiMx2fhfHitBVvdxoxx27qrMj4HwLV'}",
 "encryption": "{$params.encryption|default:'AES128-CBC'}",
+"notes": "{$params.notes}",	    
 
 {if isset($params.vendor)}
 "vendor": "{$params.vendor|default:'Default'}",
@@ -572,7 +572,7 @@
     	{/foreach}
     ],
 	{/if}
-    "site": "{$params.site_name}",
+    "site": "{$params.site}",
     "sourcetype": "{$params.sourcetype}",
     "srcipidentity": "{$params.srcipidentity}",
     {if isset($params.vendor)}

@@ -2,7 +2,7 @@
   <information>
     <icon>none</icon>
     <description></description>
-    <displayField>object_id</displayField>
+    <displayField>pop_label</displayField>
     <order>0</order>
     <visibility/>
     <wfConstraintsPath></wfConstraintsPath>

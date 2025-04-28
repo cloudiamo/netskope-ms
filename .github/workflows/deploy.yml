@@ -7,7 +7,8 @@ on:
   push:
     branches:
       - master
-
+      - next_release/*
+      - release/*
 env:
   CONTAINER_NAME: ubiqube/cld-netskope-ms-installer
 

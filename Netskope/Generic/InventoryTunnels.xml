@@ -1,0 +1,348 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>10</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>InventoryTunnels</name>
+    <group>SASE|SSE</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+    <directoryNames>
+      <directoryName>IPSec</directoryName>
+    </directoryNames>
+  </information>
+  <variables frozen="0">
+    <variable displayName="ID" name="params.object_id" startIncrement="0" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Source IP" name="params.srcipidentity" startIncrement="0" type="IpAddress" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="130" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Pop Name" name="params.pops.0.pop_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Primary" name="params.pops.0.primary" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Pop IP" name="params.pops.0.gateway" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Location" name="params.pops.0.location" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="5" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Vendor" name="params.vendor" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="6" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="Netskope" isMandatory="true" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Type" name="params.type" startIncrement="0" type="Composite" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="7" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" selector="params.pops.0.pop_name" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="encryption" name="params.encryption" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+    &quot;status&quot;: 200,
+    &quot;total&quot;: 5,
+    &quot;result&quot;: [
+        {
+            &quot;id&quot;: 4,
+            &quot;site&quot;: &quot;Mahfoud&quot;,
+            &quot;enabled&quot;: true,
+            &quot;pops&quot;: [
+                {
+                    &quot;name&quot;: &quot;par1&quot;,
+                    &quot;gateway&quot;: &quot;163.116.163.38&quot;,
+                    &quot;probeip&quot;: &quot;10.163.6.216&quot;,
+                    &quot;primary&quot;: true,
+                    &quot;status&quot;: &quot;down&quot;,
+                    &quot;since&quot;: &quot;unknown&quot;,
+                    &quot;throughput&quot;: &quot;unknown&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;par2&quot;,
+                    &quot;gateway&quot;: &quot;163.116.176.38&quot;,
+                    &quot;probeip&quot;: &quot;10.176.6.216&quot;,
+                    &quot;primary&quot;: false,
+                    &quot;status&quot;: &quot;down&quot;,
+                    &quot;since&quot;: &quot;unknown&quot;,
+                    &quot;throughput&quot;: &quot;unknown&quot;
+                }
+            ],
+            &quot;vendor&quot;: &quot;Default&quot;,
+            &quot;template&quot;: &quot;&quot;,
+            &quot;sourcetype&quot;: &quot;Guest Wifi&quot;,
+            &quot;notes&quot;: &quot;&quot;,
+            &quot;bandwidth&quot;: 200,
+            &quot;encryption&quot;: &quot;AES128-CBC&quot;,
+            &quot;srcidentity&quot;: &quot;mahfoud@cloudi-fi.com&quot;,
+            &quot;srcipidentity&quot;: &quot;&quot;,
+            &quot;options&quot;: {
+                &quot;rekey&quot;: false,
+                &quot;reauth&quot;: true,
+                &quot;xff&quot;: {
+                    &quot;enabled&quot;: false,
+                    &quot;iplist&quot;: []
+                },
+                &quot;qos&quot;: {
+                    &quot;enabled&quot;: false,
+                    &quot;linkid&quot;: 0
+                },
+                &quot;ctap&quot;: false
+            },
+            &quot;version&quot;: 2
+        },
+        {
+            &quot;id&quot;: 8,
+            &quot;site&quot;: &quot;Cergy&quot;,
+            &quot;enabled&quot;: true,
+            &quot;pops&quot;: [
+                {
+                    &quot;name&quot;: &quot;par1&quot;,
+                    &quot;gateway&quot;: &quot;163.116.163.38&quot;,
+                    &quot;probeip&quot;: &quot;10.163.6.216&quot;,
+                    &quot;primary&quot;: true,
+                    &quot;status&quot;: &quot;down&quot;,
+                    &quot;since&quot;: &quot;1737106582&quot;,
+                    &quot;throughput&quot;: &quot;0.00 Kbps&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;par2&quot;,
+                    &quot;gateway&quot;: &quot;163.116.176.38&quot;,
+                    &quot;probeip&quot;: &quot;10.176.6.216&quot;,
+                    &quot;primary&quot;: false,
+                    &quot;status&quot;: &quot;down&quot;,
+                    &quot;since&quot;: &quot;1734967627&quot;,
+                    &quot;throughput&quot;: &quot;0.00 Kbps&quot;
+                }
+            ],
+            &quot;vendor&quot;: &quot;Default&quot;,
+            &quot;template&quot;: &quot;&quot;,
+            &quot;sourcetype&quot;: &quot;User&quot;,
+            &quot;notes&quot;: &quot;&quot;,
+            &quot;bandwidth&quot;: 250,
+            &quot;encryption&quot;: &quot;AES128-CBC&quot;,
+            &quot;srcidentity&quot;: &quot;cergy@cloudi-fi.com&quot;,
+            &quot;srcipidentity&quot;: &quot;&quot;,
+            &quot;options&quot;: {
+                &quot;rekey&quot;: false,
+                &quot;reauth&quot;: false,
+                &quot;xff&quot;: {
+                    &quot;enabled&quot;: false,
+                    &quot;iplist&quot;: []
+                },
+                &quot;qos&quot;: {
+                    &quot;enabled&quot;: false,
+                    &quot;linkid&quot;: 0
+                },
+                &quot;ctap&quot;: false
+            },
+            &quot;version&quot;: 2
+        },
+        {
+            &quot;id&quot;: 28,
+            &quot;site&quot;: &quot;Test1&quot;,
+            &quot;enabled&quot;: true,
+            &quot;pops&quot;: [
+                {
+                    &quot;name&quot;: &quot;maa1&quot;,
+                    &quot;gateway&quot;: &quot;163.116.195.38&quot;,
+                    &quot;probeip&quot;: &quot;10.195.6.216&quot;,
+                    &quot;primary&quot;: true,
+                    &quot;status&quot;: &quot;down&quot;,
+                    &quot;since&quot;: &quot;1741891481&quot;,
+                    &quot;throughput&quot;: &quot;0.00 Kbps&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;maa2&quot;,
+                    &quot;gateway&quot;: &quot;163.116.214.38&quot;,
+                    &quot;probeip&quot;: &quot;10.234.6.216&quot;,
+                    &quot;primary&quot;: false,
+                    &quot;status&quot;: &quot;down&quot;,
+                    &quot;since&quot;: &quot;unknown&quot;,
+                    &quot;throughput&quot;: &quot;unknown&quot;
+                }
+            ],
+            &quot;vendor&quot;: &quot;Default&quot;,
+            &quot;template&quot;: &quot;&quot;,
+            &quot;sourcetype&quot;: &quot;User&quot;,
+            &quot;notes&quot;: &quot;&quot;,
+            &quot;bandwidth&quot;: 150,
+            &quot;encryption&quot;: &quot;AES128-CBC&quot;,
+            &quot;srcidentity&quot;: &quot;3.225.168.220&quot;,
+            &quot;srcipidentity&quot;: &quot;&quot;,
+            &quot;options&quot;: {
+                &quot;rekey&quot;: false,
+                &quot;reauth&quot;: false,
+                &quot;xff&quot;: {
+                    &quot;enabled&quot;: false,
+                    &quot;iplist&quot;: []
+                },
+                &quot;qos&quot;: {
+                    &quot;enabled&quot;: false,
+                    &quot;linkid&quot;: 0
+                },
+                &quot;ctap&quot;: false
+            },
+            &quot;version&quot;: 2
+        },
+        {
+            &quot;id&quot;: 32,
+            &quot;site&quot;: &quot;Test2&quot;,
+            &quot;enabled&quot;: true,
+            &quot;pops&quot;: [
+                {
+                    &quot;name&quot;: &quot;maa1&quot;,
+                    &quot;gateway&quot;: &quot;163.116.195.38&quot;,
+                    &quot;probeip&quot;: &quot;10.195.6.216&quot;,
+                    &quot;primary&quot;: true,
+                    &quot;status&quot;: &quot;down&quot;,
+                    &quot;since&quot;: &quot;1741891483&quot;,
+                    &quot;throughput&quot;: &quot;0.00 Kbps&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;maa2&quot;,
+                    &quot;gateway&quot;: &quot;163.116.214.38&quot;,
+                    &quot;probeip&quot;: &quot;10.234.6.216&quot;,
+                    &quot;primary&quot;: false,
+                    &quot;status&quot;: &quot;down&quot;,
+                    &quot;since&quot;: &quot;unknown&quot;,
+                    &quot;throughput&quot;: &quot;unknown&quot;
+                }
+            ],
+            &quot;vendor&quot;: &quot;Default&quot;,
+            &quot;template&quot;: &quot;&quot;,
+            &quot;sourcetype&quot;: &quot;User&quot;,
+            &quot;notes&quot;: &quot;&quot;,
+            &quot;bandwidth&quot;: 150,
+            &quot;encryption&quot;: &quot;AES128-CBC&quot;,
+            &quot;srcidentity&quot;: &quot;52.5.4.115&quot;,
+            &quot;srcipidentity&quot;: &quot;&quot;,
+            &quot;options&quot;: {
+                &quot;rekey&quot;: false,
+                &quot;reauth&quot;: false,
+                &quot;xff&quot;: {
+                    &quot;enabled&quot;: false,
+                    &quot;iplist&quot;: []
+                },
+                &quot;qos&quot;: {
+                    &quot;enabled&quot;: false,
+                    &quot;linkid&quot;: 0
+                },
+                &quot;ctap&quot;: false
+            },
+            &quot;version&quot;: 2
+        },
+        {
+            &quot;id&quot;: 36,
+            &quot;site&quot;: &quot;Unknown User&quot;,
+            &quot;enabled&quot;: true,
+            &quot;pops&quot;: [
+                {
+                    &quot;name&quot;: &quot;lax1&quot;,
+                    &quot;gateway&quot;: &quot;163.116.132.38&quot;,
+                    &quot;probeip&quot;: &quot;10.132.6.216&quot;,
+                    &quot;primary&quot;: true,
+                    &quot;status&quot;: &quot;up&quot;,
+                    &quot;since&quot;: &quot;1742450068&quot;,
+                    &quot;throughput&quot;: &quot;0.00 Kbps&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;lax2&quot;,
+                    &quot;gateway&quot;: &quot;163.116.248.38&quot;,
+                    &quot;probeip&quot;: &quot;10.132.22.216&quot;,
+                    &quot;primary&quot;: false,
+                    &quot;status&quot;: &quot;down&quot;,
+                    &quot;since&quot;: &quot;unknown&quot;,
+                    &quot;throughput&quot;: &quot;unknown&quot;
+                }
+            ],
+            &quot;vendor&quot;: &quot;Default&quot;,
+            &quot;template&quot;: &quot;&quot;,
+            &quot;sourcetype&quot;: &quot;User&quot;,
+            &quot;notes&quot;: &quot;&quot;,
+            &quot;bandwidth&quot;: 150,
+            &quot;encryption&quot;: &quot;AES128-CBC&quot;,
+            &quot;srcidentity&quot;: &quot;Kmaheshwari@netskope.com&quot;,
+            &quot;srcipidentity&quot;: &quot;&quot;,
+            &quot;options&quot;: {
+                &quot;rekey&quot;: false,
+                &quot;reauth&quot;: false,
+                &quot;xff&quot;: {
+                    &quot;enabled&quot;: false,
+                    &quot;iplist&quot;: []
+                },
+                &quot;qos&quot;: {
+                    &quot;enabled&quot;: false,
+                    &quot;linkid&quot;: 0
+                },
+                &quot;ctap&quot;: false
+            },
+            &quot;version&quot;: 2
+        }
+    ]
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <post_template>{assign_object_variable var=&quot;vendor&quot; value=&quot;Netskope&quot;}
+{if $params.encryption != &quot;&quot;}
+{assign_object_variable var=&quot;type&quot; value=&quot;IPSEC&quot;}
+{else}
+{assign_object_variable var=&quot;type&quot; value=&quot;GRE&quot;}
+{/if}</post_template>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.result.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$.id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+          <xpath>$.entry</xpath>
+        </line>
+        <line>
+          <array name="pops">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;pop_name&gt;.*)$@</regexp>
+                <xpath>$.name</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;primary&gt;.*)$@</regexp>
+                <xpath>$.primary</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;gateway&gt;.*)$@</regexp>
+                <xpath>$.gateway</xpath>
+              </line>
+            </lines>
+            <xpath>$.pops.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;srcipidentity&gt;.*)$@</regexp>
+          <xpath>$.srcipidentity</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;encryption&gt;.*)$@</regexp>
+          <xpath>$[&apos;encryption&apos;]</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/api/v2/steering/ipsec/tunnels##/api/v2/steering/gre/tunnels</xpath>
+  </command>
+  <command name="CREATE"/>
+  <command name="READ"/>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE"/>
+  <command name="LIST"/>
+  <displayName>InventoryTunnels</displayName>
+  <order>10</order>
+</ObjectDefinition>

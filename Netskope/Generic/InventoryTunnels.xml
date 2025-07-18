@@ -345,4 +345,4 @@
   <command name="DELETE"/>
   <command name="LIST"/>
   <displayName>InventoryTunnels</displayName>
-<ObjectDefinition>
+</ObjectDefinition>

@@ -290,6 +290,7 @@
 {else}
 {assign_object_variable var=&quot;type&quot; value=&quot;GRE&quot;}
 {/if}</post_template>
+
     <parser>
       <section>
         <regexp>@^\s \s*$@</regexp>
@@ -344,5 +345,3 @@
   <command name="DELETE"/>
   <command name="LIST"/>
   <displayName>InventoryTunnels</displayName>
-  <order>10</order>
-</ObjectDefinition>

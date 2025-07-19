@@ -613,7 +613,7 @@
     "encryption": "{$params.encryption}",
 {literal}}{/literal}
 ]]></operation>
-    <rest>/api/v2/steering/ipsec/tunnels/:id</rest>
+    <rest>/api/v2/steering/ipsec/tunnels/{$params.object_id}</rest>
     <xpath>PATCH</xpath>
   </command>
   <command name="CONSTRAINT"/>

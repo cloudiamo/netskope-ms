@@ -391,12 +391,12 @@
     {literal}}{/literal}
 {literal}}{/literal}]]></operation>
     <rest>PATCH</rest>
-    <xpath>/api/v2/steering/gre/tunnels/{$gre_tunnels.$object_id.object_id}</xpath>
+    <xpath>/api/v2/steering/gre/tunnels/{$params.object_id}</xpath>
   </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE">
     <rest>DELETE</rest>
-    <xpath>/api/v2/steering/gre/tunnels/{$gre_tunnels.$object_id.object_id}</xpath>
+    <xpath>/api/v2/steering/gre/tunnels/{$params.object_id}</xpath>
   </command>
   <command name="LIST"/>
   <displayName>GRE Tunnels</displayName>

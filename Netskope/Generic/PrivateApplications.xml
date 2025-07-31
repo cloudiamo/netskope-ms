@@ -28,8 +28,8 @@
   <variables frozen="0">
     <variable displayName="App ID" name="params.object_id" startIncrement="0" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
     <variable displayName="App Name" name="params.app_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="Host" name="params.real_host" startIncrement="0" type="Composite" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" selector="params.host" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="Host" name="params.host" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Real Host" name="params.real_host" startIncrement="0" type="Composite" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" selector="params.host" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Host" name="params.host" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
     <variable displayName="Protocol" name="params.protocols.0.transport" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
       <values/>
     </variable>
@@ -45,17 +45,17 @@
         <values displayValue="8443">8443</values>
       </values>
     </variable>
-    <variable displayName="use_publisher_dns" name="params.use_publisher_dns" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="true" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="trust_self_signed_certs" name="params.trust_self_signed_certs" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="true" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="clientless_access" name="params.clientless_access" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="true" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="Modified By" name="params.modified_by" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="Modify Time" name="params.modify_time" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
-    <variable displayName="Publisher " name="params.service_publisher_assignments.0.publisher_id" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+    <variable displayName="Publisher " name="params.service_publisher_assignments.0.publisher_id" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
       <classes>
-        <class>publishers</class>
+        <class>Publishers</class>
       </classes>
       <values/>
     </variable>
+    <variable displayName="use_publisher_dns" name="params.use_publisher_dns" startIncrement="0" type="Boolean" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="true" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="trust_self_signed_certs" name="params.trust_self_signed_certs" startIncrement="0" type="Boolean" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="true" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="clientless_access" name="params.clientless_access" startIncrement="0" type="Boolean" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="true" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Modified By" name="params.modified_by" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Modify Time" name="params.modify_time" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
     <variable displayName="Service ID " name="params.service_publisher_assignments.0.service_id" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="false" arrayCanRemove="false" arrayCanMove="false" arrayCanEdit="false" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
     <variable displayName="Reachable" name="params.reachable" startIncrement="0" type="Boolean" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
     <variable displayName="policies" name="params.policies.0.policies" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
@@ -66,62 +66,83 @@
     &quot;data&quot;: {
         &quot;private_apps&quot;: [
             {
-                &quot;allow_unauthenticated_cors&quot;: false,
+                 &quot;allow_unauthenticated_cors&quot;: false,
                 &quot;allow_uri_bypass&quot;: false,
-                &quot;app_id&quot;: 3,
-                &quot;app_name&quot;: &quot;[inance-ERP-App]&quot;,
+                &quot;app_id&quot;: 91,
+                &quot;app_name&quot;: &quot;[SASEOpsLabApp004]&quot;,
                 &quot;app_option&quot;: {},
                 &quot;bypass_uris&quot;: [],
                 &quot;clientless_access&quot;: false,
-                &quot;host&quot;: &quot;10.0.2.15&quot;,
+                &quot;host&quot;: &quot;www.myhost.com,10.101.4.4&quot;,
                 &quot;is_user_portal_app&quot;: false,
                 &quot;modified_by&quot;: &quot;apigw&quot;,
-                &quot;modify_time&quot;: &quot;2025-06-11 12:42:27&quot;,
+                &quot;modify_time&quot;: &quot;2025-07-24 12:29:17&quot;,
                 &quot;policies&quot;: [],
                 &quot;private_app_protocol&quot;: &quot;&quot;,
                 &quot;protocols&quot;: [
                     {
-                        &quot;created_at&quot;: &quot;2025-06-11T12:42:27.665Z&quot;,
-                        &quot;id&quot;: 3,
-                        &quot;port&quot;: &quot;443&quot;,
-                        &quot;service_id&quot;: 1,
+                        &quot;created_at&quot;: &quot;2025-07-24T12:29:17.283Z&quot;,
+                        &quot;id&quot;: 41,
+                        &quot;port&quot;: &quot;8080-8090&quot;,
+                        &quot;service_id&quot;: 22,
                         &quot;transport&quot;: &quot;tcp&quot;,
-                        &quot;updated_at&quot;: &quot;2025-06-11T12:42:27.665Z&quot;
-                    },
-                    {
-                        &quot;created_at&quot;: &quot;2025-06-11T12:42:27.666Z&quot;,
-                        &quot;id&quot;: 4,
-                        &quot;port&quot;: &quot;8443&quot;,
-                        &quot;service_id&quot;: 1,
-                        &quot;transport&quot;: &quot;udp&quot;,
-                        &quot;updated_at&quot;: &quot;2025-06-11T12:42:27.666Z&quot;
+                        &quot;updated_at&quot;: &quot;2025-07-24T12:29:17.283Z&quot;
                     }
                 ],
                 &quot;public_host&quot;: &quot;&quot;,
                 &quot;reachability&quot;: {
                     &quot;reachable&quot;: false
                 },
-                &quot;real_host&quot;: &quot;&quot;,
-                &quot;service_publisher_assignments&quot;: [
-                    {
-                        &quot;primary&quot;: null,
-                        &quot;publisher_id&quot;: 3,
-                        &quot;publisher_name&quot;: &quot;test-publisher&quot;,
-                        &quot;reachability&quot;: null,
-                        &quot;service_id&quot;: 3
-                    }
-                ],
+                &quot;real_host&quot;: null,
+                &quot;service_publisher_assignments&quot;: [],
                 &quot;steering_configs&quot;: [],
                 &quot;supplement_dns_for_osx&quot;: false,
                 &quot;tags&quot;: [],
-                &quot;trust_self_signed_certs&quot;: false,
+                &quot;trust_self_signed_certs&quot;: null,
                 &quot;uribypass_header_value&quot;: &quot;&quot;,
                 &quot;use_publisher_dns&quot;: false
+            },
+            {
+                &quot;allow_unauthenticated_cors&quot;: false,
+                &quot;allow_uri_bypass&quot;: false,
+                &quot;app_id&quot;: 95,
+                &quot;app_name&quot;: &quot;[SASEOpsLabPrivateApp005]&quot;,
+                &quot;app_option&quot;: {},
+                &quot;bypass_uris&quot;: [],
+                &quot;clientless_access&quot;: true,
+                &quot;host&quot;: &quot;ns.f07ea576&quot;,
+                &quot;is_user_portal_app&quot;: false,
+                &quot;modified_by&quot;: &quot;apigw&quot;,
+                &quot;modify_time&quot;: &quot;2025-07-24 12:32:40&quot;,
+                &quot;policies&quot;: [],
+                &quot;private_app_protocol&quot;: &quot;&quot;,
+                &quot;protocols&quot;: [
+                    {
+                        &quot;created_at&quot;: &quot;2025-07-24T12:32:40.946Z&quot;,
+                        &quot;id&quot;: 42,
+                        &quot;port&quot;: &quot;443&quot;,
+                        &quot;service_id&quot;: 23,
+                        &quot;transport&quot;: &quot;tcp&quot;,
+                        &quot;updated_at&quot;: &quot;2025-07-24T12:32:40.946Z&quot;
+                    }
+                ],
+                &quot;public_host&quot;: &quot;https://ns-f07ea576-443-alliances2.npaproxy.goskope.com&quot;,
+                &quot;reachability&quot;: {
+                    &quot;reachable&quot;: false
+                },
+                &quot;real_host&quot;: &quot;10.101.5.5&quot;,
+                &quot;service_publisher_assignments&quot;: [],
+                &quot;steering_configs&quot;: [],
+                &quot;supplement_dns_for_osx&quot;: false,
+                &quot;tags&quot;: [],
+                &quot;trust_self_signed_certs&quot;: true,
+                &quot;uribypass_header_value&quot;: &quot;&quot;,
+                &quot;use_publisher_dns&quot;: true
             }
         ]
     },
     &quot;status&quot;: &quot;success&quot;,
-    &quot;total&quot;: 1
+    &quot;total&quot;: 17
 }</content>
   </example>
   <command name="IMPORT">
@@ -282,11 +303,15 @@
     {literal}}{/literal}{if !$protocol@last},{/if}
     {/foreach}
   ],
-  "use_publisher_dns": {if $params.use_publisher_dns}true{else}false{/if},
-  "clientless_access": {if $params.clientless_access}true{else}false{/if},
-  "trust_self_signed_certs": {if $params.trust_self_signed_certs}true{else}false{/if}
-{literal}}{/literal}
-]]></operation>
+  "publishers": [
+    {foreach $params.service_publisher_assignments as $publisher}
+    {literal}{{/literal}
+      "publisher_id": "{$Publishers.{$publisher.publisher_id}.object_id}",
+      "publisher_name": "{$Publishers.{$publisher.publisher_id}.publisher_name}"
+    {literal}}{/literal}{if !$publisher@last},{/if}
+    {/foreach}
+  ]
+{literal}}{/literal}]]></operation>
     <rest>POST</rest>
     <xpath>/api/v2/steering/apps/private</xpath>
   </command>

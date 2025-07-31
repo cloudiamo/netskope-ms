@@ -324,7 +324,7 @@
   <command name="CONSTRAINT"/>
   <command name="DELETE">
     <rest>DELETE</rest>
-    <xpath>/api/v2/steering/apps/private</xpath>
+    <xpath>/api/v2/steering/apps/private/{$params.object_id}</xpath>
   </command>
   <command name="LIST"/>
   <displayName>private applications</displayName>

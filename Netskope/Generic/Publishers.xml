@@ -140,7 +140,10 @@
   <command name="READ"/>
   <command name="UPDATE"/>
   <command name="CONSTRAINT"/>
-  <command name="DELETE"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/api/v2/infrastructure/publishers/{$params.object_id}</xpath>
+  </command>
   <command name="LIST"/>
   <displayName>publishers</displayName>
   <order>0</order>

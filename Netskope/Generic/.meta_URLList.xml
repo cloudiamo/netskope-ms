@@ -18,7 +18,7 @@
             <value>string</value>
         </entry>
         <entry>
-            <key>MODEL</key>
+            <key>MANUFACTURER</key>
             <value>12032025</value>
         </entry>
         <entry>
@@ -26,12 +26,12 @@
             <value>text</value>
         </entry>
         <entry>
-            <key>MANUFACTURER</key>
+            <key>MODEL</key>
             <value>12032025</value>
         </entry>
         <entry>
             <key>DISPLAYNAME</key>
-            <value>URL_List.xml</value>
+            <value>URLList.xml</value>
         </entry>
     </map>
 </metadata>

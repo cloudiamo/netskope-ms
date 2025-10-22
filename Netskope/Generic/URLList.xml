@@ -203,11 +203,6 @@
     <xpath>/api/v2/policy/urllist</xpath>
   </command>
   <command name="READ"/>
-  <command name="UPDATE">
-    <operation><![CDATA[]]></operation>
-    <rest></rest>
-    <xpath></xpath>
-  </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE">
     <rest>DELETE</rest>

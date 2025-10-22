@@ -323,11 +323,7 @@
   </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE">
-    <operation><![CDATA[
-      {if !$params.object_id}
-        {throw "ValidationError: 'object_id' parameter is required for DELETE operation."}
-      {/if}
-    ]]></operation>
+    <operation><![CDATA[]]></operation>
     <rest>DELETE</rest>
     <xpath>/api/v2/steering/apps/private/{$params.object_id}</xpath>
   </command>

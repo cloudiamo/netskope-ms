@@ -1,0 +1,313 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>Custom Categories</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="Custom Category ID" name="params.object_id" startIncrement="0" type="AutoIncrement" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="name" name="params.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="description" name="params.description" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Included Predefined Categories" name="params.included_predefined_categories.0.included_predefined_categories" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="300" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Included URL Lists" name="params.included_url_lists.0.included_url_lists" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="object_id" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>URLList</class>
+      </classes>
+    </variable>
+    <variable displayName="Excluded URL Lists" name="params.excluded_url_lists.0.excluded_url_lists" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="object_id" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>URLList</class>
+      </classes>
+    </variable>
+    <variable displayName="Included Destination Profiles" name="params.included_destination_profiles.0.included_destination_profiles" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Excluded Destination Profiles" name="params.excluded_destination_profiles.0.excluded_destination_profiles" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+  &quot;elements&quot;: [
+    {
+      &quot;id&quot;: &quot;ffb73cf9-bd2f-4b9f-9a70-dface7dca7b0&quot;,
+      &quot;name&quot;: &quot;Social Media&quot;,
+      &quot;create_time&quot;: &quot;2024-05-20T12:00:55.168Z&quot;,
+      &quot;modify_by&quot;: &quot;Another API Token&quot;,
+      &quot;modify_time&quot;: &quot;2024-06-10T12:00:23.168Z&quot;,
+      &quot;description&quot;: &quot;Social Media collection&quot;,
+      &quot;included_predefined_categories&quot;: [
+        &quot;500&quot;,
+        &quot;501&quot;
+      ],
+      &quot;included_url_lists&quot;: [
+        &quot;22&quot;,
+        &quot;23&quot;
+      ],
+      &quot;excluded_url_lists&quot;: [
+        &quot;19&quot;,
+        &quot;20&quot;
+      ],
+      &quot;included_destination_profiles&quot;: [
+        &quot;ffb73cf9-bd2f-4b9f-9a70-dface7dca7b0&quot;
+      ],
+      &quot;excluded_destination_profiles&quot;: [
+        &quot;56ef180c-18d2-49f2-a3e5-54a4a001e08e&quot;
+      ],
+      &quot;status&quot;: &quot;applied&quot;,
+      &quot;create_by&quot;: &quot;API Token&quot;
+    },
+    {
+      &quot;id&quot;: &quot;xxxxxxxx-bd2f-4b9f-9a70-dface7dca7b0&quot;,
+      &quot;name&quot;: &quot;facebook&quot;,
+      &quot;create_time&quot;: &quot;2024-05-20T12:00:55.168Z&quot;,
+      &quot;modify_by&quot;: &quot;Another API Token&quot;,
+      &quot;modify_time&quot;: &quot;2024-06-10T12:00:23.168Z&quot;,
+      &quot;description&quot;: &quot;Social Media collection&quot;,
+      &quot;included_predefined_categories&quot;: [
+        &quot;505&quot;,
+        &quot;509&quot;
+      ],
+      &quot;included_url_lists&quot;: [
+        &quot;24&quot;,
+        &quot;27&quot;
+      ],
+      &quot;excluded_url_lists&quot;: [
+        &quot;14&quot;,
+        &quot;25&quot;
+      ],
+      &quot;included_destination_profiles&quot;: [
+        &quot;ffb73cf9-bd2f-4b9f-9a70-yyyyyyyy&quot;
+      ],
+      &quot;excluded_destination_profiles&quot;: [
+        &quot;56ef180c-18d2-49f2-a3e5-xxxxxxxx&quot;
+      ],
+      &quot;status&quot;: &quot;applied&quot;,
+      &quot;create_by&quot;: &quot;API Token&quot;
+    }
+  ],
+  &quot;total_count&quot;: 2
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$[&apos;elements&apos;].*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$[&apos;id&apos;]</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;name&gt;.*)$@</regexp>
+          <xpath>$[&apos;name&apos;]</xpath>
+        </line>
+        <line>
+          <array name="included_predefined_categories">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;included_predefined_categories&gt;.*)$@</regexp>
+                <xpath>$</xpath>
+              </line>
+            </lines>
+            <xpath>$.included_predefined_categories.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <array name="included_url_lists">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;included_url_lists&gt;.*)$@</regexp>
+                <xpath>$</xpath>
+              </line>
+            </lines>
+            <xpath>$.included_url_lists.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <array name="excluded_url_lists">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;excluded_url_lists&gt;.*)$@</regexp>
+                <xpath>$</xpath>
+              </line>
+            </lines>
+            <xpath>$.excluded_url_lists.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <array name="included_destination_profiles">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;included_destination_profiles&gt;.*)$@</regexp>
+                <xpath>$</xpath>
+              </line>
+            </lines>
+            <xpath>$.included_destination_profiles.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <array name="excluded_destination_profiles">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;excluded_destination_profiles&gt;.*)$@</regexp>
+                <xpath>$</xpath>
+              </line>
+            </lines>
+            <xpath>$.excluded_destination_profiles.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;description&gt;.*)$@</regexp>
+          <xpath>$[&apos;description&apos;]</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/api/v2/profiles/customcategories</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{literal}{
+{/literal}
+  {assign var=has_prev value=false}
+
+  {*
+    Ajout conditionnel de "id" si défini
+  *}
+  {if $params.object_id}
+    {if $has_prev},{/if}
+    "id": "{$params.object_id}"
+    {assign var=has_prev value=true}
+  {/if}
+
+  {*
+    name
+  *}
+  {if $params.name}
+    {if $has_prev},{/if}
+    "name": "{$params.name}"
+    {assign var=has_prev value=true}
+  {/if}
+
+  {*
+    description
+  *}
+  {if $params.description}
+    {if $has_prev},{/if}
+    "description": "{$params.description}"
+    {assign var=has_prev value=true}
+  {/if}
+
+ {*
+    included_predefined_categories
+  *}
+  {if $params.included_predefined_categories}
+    {if $has_prev},{/if}
+    "included_predefined_categories": [
+      {foreach $params.included_predefined_categories as $item}
+      "{$item.included_predefined_categories}"{if !$item@last},{/if}
+      {/foreach}
+    ]
+    {assign var=has_prev value=true}
+  {/if}
+
+  {*
+    included_url_lists
+  *}
+  {if $params.included_url_lists}
+    {if $has_prev},{/if}
+    "included_url_lists": [
+      {foreach $params.included_url_lists as $item}
+      "{$item.included_url_lists}"{if !$item@last},{/if}
+      {/foreach}
+    ]
+    {assign var=has_prev value=true}
+  {/if}
+
+  {*
+    excluded_url_lists
+  *}
+  {if $params.excluded_url_lists}
+    {if $has_prev},{/if}
+    "excluded_url_lists": [
+      {foreach $params.excluded_url_lists as $item}
+      "{$item.excluded_url_lists}"{if !$item@last},{/if}
+      {/foreach}
+    ]
+    {assign var=has_prev value=true}
+  {/if}
+
+  {*
+    included_destination_profiles
+  *}
+  {if $params.included_destination_profiles}
+    {if $has_prev},{/if}
+    "included_destination_profiles": [
+      {foreach $params.included_destination_profiles as $item}
+      "{$item.included_destination_profiles}"{if !$item@last},{/if}
+      {/foreach}
+    ]
+    {assign var=has_prev value=true}
+  {/if}
+
+  {*
+    excluded_destination_profiles
+  *}
+  {if $params.excluded_destination_profiles}
+    {if $has_prev},{/if}
+    "excluded_destination_profiles": [
+      {foreach $params.excluded_destination_profiles as $item}
+      "{$item.excluded_destination_profiles}"{if !$item@last},{/if}
+      {/foreach}
+    ]
+    {assign var=has_prev value=true}
+  {/if}
+
+{literal}}{/literal}
+]]></operation>
+    <rest>POST</rest>
+    <xpath>/api/v2/profiles/customcategories</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <rest>PATCH</rest>
+    <xpath>/api/v2/profiles/customcategories</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/api/v2/profiles/customcategories/{$params.custom_cat_id}</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>Custom Categories</displayName>
+  <order>0</order>
+</ObjectDefinition>

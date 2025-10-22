@@ -10,10 +10,6 @@
             <value>CommandDefinition</value>
         </entry>
         <entry>
-            <key>TAG</key>
-            <value>string</value>
-        </entry>
-        <entry>
             <key>COMMENT</key>
             <value>string</value>
         </entry>
@@ -24,6 +20,10 @@
         <entry>
             <key>FILE_TYPE</key>
             <value>text</value>
+        </entry>
+        <entry>
+            <key>TAG</key>
+            <value>string</value>
         </entry>
         <entry>
             <key>MODEL</key>

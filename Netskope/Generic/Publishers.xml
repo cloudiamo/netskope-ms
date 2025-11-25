@@ -169,8 +169,8 @@
             </lines>
             <xpath>$.connected_apps.*</xpath>
           </array>
-          <regexp/>
-          <xpath/>
+          <regexp></regexp>
+          <xpath></xpath>
         </line>
       </lines>
     </parser>
@@ -198,7 +198,26 @@
     <xpath>/api/v2/infrastructure/publishers</xpath>
   </command>
   <command name="READ"/>
-  <command name="UPDATE"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "name": "{$params.publisher_name}",
+  "common_name": "{$params.common_name}",
+  {if !empty($params.upgrade_profile_id)}
+  "publisher_upgrade_profiles_external_id": {$params.upgrade_profile_id},
+  {/if}
+  {if !empty($params.auto_upgrade)}
+  "auto_upgrade": {if $params.auto_upgrade == true} true {else}false{/if},
+  {/if}
+  {if !empty($params.location)}
+  "location": "{$params.location}",
+  {/if}
+  {if !empty($params.log_level)}
+  "log_level":"{$params.log_level}"
+  {/if}
+{literal}}{/literal}]]></operation>
+    <rest>PUT</rest>
+    <xpath>/api/v2/infrastructure/publishers/{$params.object_id}</xpath>
+  </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE">
     <rest>DELETE</rest>

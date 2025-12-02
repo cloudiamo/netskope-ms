@@ -1,0 +1,197 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>UpgradeProfiles</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="ID" name="params.object_id" startIncrement="1" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="name" name="params.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="enabled" name="params.enabled" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="releaseType" name="params.releaseType" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="Latest" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="Beta">Beta</values>
+        <values displayValue="Latest-1">Latest</values>
+        <values displayValue="Latest-2">Latest-2</values>
+        <values displayValue="R125">R125</values>
+      </values>
+    </variable>
+    <variable displayName="Docker Tag" name="params.dockerTag" startIncrement="0" type="Integer" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="10317" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="frequency" name="params.frequency" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="=>  0: The minute field. It specifies the 0th minute of the hour.&#xa;&#xa;=> 10: The hour field. It specifies 10 AM (10:00).&#xa;&#xa;=> *: The day of the month field. The asterisk means &quot;every day of the month.&quot;&#xa;&#xa;=> *: The month field. The asterisk means &quot;every month.&quot;&#xa;&#xa;=> MON#1: The day of the week field, using a special format. This means the first Monday of the month." groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="0 10 * * SAT#4" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="timezone" name="params.timezone" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="true" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="Europe/London">Europe/London</values>
+        <values displayValue="Europe/Paris">Europe/Paris</values>
+        <values displayValue="America/New_York">America/New_York</values>
+        <values displayValue="Asia/Tokyo">Asia/Tokyo</values>
+      </values>
+    </variable>
+    <variable displayName="next update time" name="params.nextUpdateTime" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="updated at" name="params.updatedAt" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="upgrading stage" name="params.upgradingStage" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="created at" name="params.createdAt" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="description" name="params.description" startIncrement="0" type="String" mandatoryArray="false" visible="false" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+    &quot;data&quot;: {
+        &quot;upgrade_profiles&quot;: [
+            {
+                &quot;created_at&quot;: &quot;2024-11-26T07:39:34.251Z&quot;,
+                &quot;docker_tag&quot;: &quot;10317&quot;,
+                &quot;enabled&quot;: false,
+                &quot;external_id&quot;: 1,
+                &quot;frequency&quot;: &quot;0 10 * * SAT#4&quot;,
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;default&quot;,
+                &quot;next_update_time&quot;: 1735408800,
+                &quot;num_associated_publisher&quot;: 14,
+                &quot;release_type&quot;: &quot;Latest&quot;,
+                &quot;timezone&quot;: &quot;US/Pacific&quot;,
+                &quot;timezone_id&quot;: null,
+                &quot;updated_at&quot;: &quot;2025-11-13T08:59:54.693Z&quot;,
+                &quot;upgrading_stage&quot;: 0,
+                &quot;will_start&quot;: false
+            },
+            {
+                &quot;created_at&quot;: &quot;2025-11-28T14:53:11.794Z&quot;,
+                &quot;docker_tag&quot;: &quot;10318&quot;,
+                &quot;enabled&quot;: false,
+                &quot;external_id&quot;: 5,
+                &quot;frequency&quot;: &quot;0 10 * * MON#1&quot;,
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;SASEOpsLabProfile&quot;,
+                &quot;next_update_time&quot;: 1764583200,
+                &quot;num_associated_publisher&quot;: 0,
+                &quot;release_type&quot;: &quot;Beta&quot;,
+                &quot;timezone&quot;: &quot;Europe/London&quot;,
+                &quot;timezone_id&quot;: 28,
+                &quot;updated_at&quot;: &quot;2025-11-28T14:53:11.794Z&quot;,
+                &quot;upgrading_stage&quot;: 0,
+                &quot;will_start&quot;: false
+            }
+        ]
+    },
+    &quot;status&quot;: &quot;success&quot;,
+    &quot;total&quot;: 2
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <post_template>{assign_object_variable var=nextUpdateTime value={$params.nextUpdateTime}|date_format:&quot;%Y-%m-%dT%H:%M:%S&quot;}</post_template>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.data.upgrade_profiles.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$.external_id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;name&gt;.*)$@</regexp>
+          <xpath>$.name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;enabled&gt;.*)$@</regexp>
+          <xpath>$.enabled</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;nextUpdateTime&gt;.*)$@</regexp>
+          <xpath>$.next_update_time</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;updatedAt&gt;.*)$@</regexp>
+          <xpath>$.updated_at</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;upgradingStage&gt;.*)$@</regexp>
+          <xpath>$.upgrading_stage</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;createdAt&gt;.*)$@</regexp>
+          <xpath>$.created_at</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;releaseType&gt;.*)$@</regexp>
+          <xpath>$.release_type</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;timezone&gt;.*)$@</regexp>
+          <xpath>$.timezone</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;frequency&gt;.*)$@</regexp>
+          <xpath>$.frequency</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;description&gt;.*)$@</regexp>
+          <xpath>$.description</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;dockerTag&gt;.*)$@</regexp>
+          <xpath>$.docker_tag</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/api/v2/infrastructure/publisherupgradeprofiles</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "name": "{$params.name}",
+  "docker_tag":  "{$params.dockerTag}",
+  "frequency": "{$params.frequency|replace:'#':'\u0023'}",
+  "timezone": "{$params.timezone}",
+  "release_type": "{$params.releaseType}",
+  "enabled": {if $params.enabled == true} true {else} false {/if},
+  "description": "{$params.description}"
+{literal}}{/literal}]]></operation>
+    <rest>POST</rest>
+    <xpath>/api/v2/infrastructure/publisherupgradeprofiles</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "name": "{$params.name}",
+  "id": {$params.object_id},
+  "docker_tag":  "{$params.dockerTag}",
+  "frequency": "{$params.frequency|replace:'#':'\u0023'}",
+  "timezone": "{$params.timezone}",
+  "release_type": "{$params.releaseType}",
+  "enabled": {if $params.enabled == true} true {else} false {/if},
+  "description": "{$params.description}"
+{literal}}{/literal}]]></operation>
+    <rest>PUT</rest>
+    <xpath>/api/v2/infrastructure/publisherupgradeprofiles/{$params.object_id}</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/api/v2/infrastructure/publisherupgradeprofiles/{$params.object_id}</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>UpgradeProfiles</displayName>
+  <order>0</order>
+</ObjectDefinition>

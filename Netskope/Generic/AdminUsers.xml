@@ -1,0 +1,240 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>AdminUsers</name>
+    <group>SASE</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="userName" name="params.userName" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Is active" name="params.active" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+  &quot;Resources&quot;: [
+    {
+      &quot;id&quot;: &quot;5e6aef97-64fc-4b49-913b-f3adf24d52e4&quot;,
+      &quot;userName&quot;: &quot;user1@netskope.com&quot;,
+      &quot;active&quot;: true,
+      &quot;externalId&quot;: null,
+      &quot;metadata&quot;: {
+        &quot;created&quot;: null,
+        &quot;lastModified&quot;: &quot;2024-11-25T08:45:36.000Z&quot;,
+        &quot;location&quot;: &quot;https://example.netskope.com/api/v2/administration/scim/Users/5e6aef97-64fc-4b49-913b-f3adf24d52e4&quot;
+      },
+      &quot;urn:ietf:params:scim:schemas:netskope:2.0:User&quot;: {
+        &quot;lastLogin&quot;: &quot;2024-11-22T05:10:58.000Z&quot;,
+        &quot;provisionedBy&quot;: &quot;LOCAL&quot;,
+        &quot;recordType&quot;: &quot;USER&quot;,
+        &quot;role&quot;: {
+          &quot;value&quot;: 1,
+          &quot;display&quot;: &quot;Tenant Admin&quot;
+        },
+        &quot;isVerified&quot;: true,
+        &quot;isLocked&quot;: false,
+        &quot;samlAssertedRoleId&quot;: null,
+        &quot;authType&quot;: &quot;API_KEY&quot;,
+        &quot;apiAccessToken&quot;: {
+          &quot;expiresOn&quot;: &quot;2024-11-25T09:16:32.625Z&quot;,
+          &quot;issuedOn&quot;: &quot;2024-11-25T09:16:32.625Z&quot;,
+          &quot;value&quot;: null
+        }
+      },
+      &quot;schemas&quot;: [
+        &quot;urn:ietf:params:scim:schemas:core:2.0:User&quot;,
+        &quot;urn:ietf:params:scim:schemas:extension:netskope:2.0:User&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;5e6aef97-64fc-4b49-913b-f3adf24d52e4&quot;,
+      &quot;userName&quot;: &quot;service-account@netskope.com&quot;,
+      &quot;active&quot;: true,
+      &quot;externalId&quot;: null,
+      &quot;metadata&quot;: {
+        &quot;created&quot;: null,
+        &quot;lastModified&quot;: &quot;2024-11-25T08:45:36.000Z&quot;,
+        &quot;location&quot;: &quot;https://example.netskope.com/api/v2/administration/scim/Users/5e6aef97-64fc-4b49-913b-f3adf24d52e4&quot;
+      },
+      &quot;urn:ietf:params:scim:schemas:netskope:2.0:User&quot;: {
+        &quot;lastLogin&quot;: &quot;2024-11-22T05:10:58.000Z&quot;,
+        &quot;provisionedBy&quot;: &quot;LOCAL&quot;,
+        &quot;recordType&quot;: &quot;SERVICE_ACCOUNT&quot;,
+        &quot;role&quot;: {
+          &quot;value&quot;: 1,
+          &quot;display&quot;: &quot;Tenant Admin&quot;
+        },
+        &quot;isVerified&quot;: true,
+        &quot;isLocked&quot;: false,
+        &quot;samlAssertedRoleId&quot;: null,
+        &quot;authType&quot;: &quot;API_KEY&quot;,
+        &quot;apiAccessToken&quot;: {
+          &quot;expiresOn&quot;: &quot;2024-11-25T09:16:32.625Z&quot;,
+          &quot;issuedOn&quot;: &quot;2024-11-25T09:16:32.625Z&quot;,
+          &quot;value&quot;: null
+        }
+      },
+      &quot;schemas&quot;: [
+        &quot;urn:ietf:params:scim:schemas:core:2.0:User&quot;,
+        &quot;urn:ietf:params:scim:schemas:extension:netskope:2.0:User&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;5e6aef97-64fc-4b49-913b-f3adf24d52e4&quot;,
+      &quot;userName&quot;: &quot;service-account-oauth2@netskope.com&quot;,
+      &quot;active&quot;: true,
+      &quot;externalId&quot;: null,
+      &quot;metadata&quot;: {
+        &quot;created&quot;: null,
+        &quot;lastModified&quot;: &quot;2024-11-25T08:45:36.000Z&quot;,
+        &quot;location&quot;: &quot;https://example.netskope.com/api/v2/administration/scim/Users/5e6aef97-64fc-4b49-913b-f3adf24d52e4&quot;
+      },
+      &quot;urn:ietf:params:scim:schemas:netskope:2.0:User&quot;: {
+        &quot;lastLogin&quot;: &quot;2024-11-22T05:10:58.000Z&quot;,
+        &quot;provisionedBy&quot;: &quot;LOCAL&quot;,
+        &quot;recordType&quot;: &quot;SERVICE_ACCOUNT&quot;,
+        &quot;role&quot;: {
+          &quot;value&quot;: 1,
+          &quot;display&quot;: &quot;Tenant Admin&quot;
+        },
+        &quot;isVerified&quot;: true,
+        &quot;isLocked&quot;: false,
+        &quot;samlAssertedRoleId&quot;: null,
+        &quot;authType&quot;: &quot;OAUTH2&quot;,
+        &quot;oAuth2Settings&quot;: {
+          &quot;clientSecretDetails&quot;: {
+            &quot;expiresOn&quot;: &quot;2024-11-25T09:16:32.625Z&quot;,
+            &quot;issuedOn&quot;: &quot;2024-11-25T09:16:32.625Z&quot;
+          },
+          &quot;resourceAccessTokenSettings&quot;: {
+            &quot;overrideGlobal&quot;: true,
+            &quot;ttlInSecs&quot;: 20000
+          }
+        }
+      },
+      &quot;schemas&quot;: [
+        &quot;urn:ietf:params:scim:schemas:core:2.0:User&quot;,
+        &quot;urn:ietf:params:scim:schemas:extension:netskope:2.0:User&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;5e6aef97-64fc-4b49-913b-f3adf24d52e4&quot;,
+      &quot;userName&quot;: &quot;sso-explicit-user@netskope.com&quot;,
+      &quot;active&quot;: true,
+      &quot;externalId&quot;: null,
+      &quot;metadata&quot;: {
+        &quot;created&quot;: null,
+        &quot;lastModified&quot;: &quot;2024-11-25T08:45:36.000Z&quot;,
+        &quot;location&quot;: &quot;https://example.netskope.com/api/v2/administration/scim/Users/5e6aef97-64fc-4b49-913b-f3adf24d52e4&quot;
+      },
+      &quot;urn:ietf:params:scim:schemas:netskope:2.0:User&quot;: {
+        &quot;lastLogin&quot;: &quot;2024-11-22T05:10:58.000Z&quot;,
+        &quot;provisionedBy&quot;: &quot;SAML&quot;,
+        &quot;recordType&quot;: &quot;USER&quot;,
+        &quot;role&quot;: {
+          &quot;value&quot;: 1,
+          &quot;display&quot;: &quot;Tenant Admin&quot;
+        },
+        &quot;isVerified&quot;: true,
+        &quot;isLocked&quot;: false,
+        &quot;samlAssertedRoleId&quot;: 1,
+        &quot;authType&quot;: &quot;API_KEY&quot;,
+        &quot;supportPersonnelConfig&quot;: {
+          &quot;hasExplicitRole&quot;: true,
+          &quot;explicitRoleExpirationDate&quot;: &quot;2025-09-23T08:10:05.920Z&quot;
+        }
+      },
+      &quot;schemas&quot;: [
+        &quot;urn:ietf:params:scim:schemas:core:2.0:User&quot;,
+        &quot;urn:ietf:params:scim:schemas:extension:netskope:2.0:User&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;a01e3761-1cc6-443e-b297-84a1e67b786d&quot;,
+      &quot;userName&quot;: &quot;sso-quick-access-user@netskope.com&quot;,
+      &quot;active&quot;: true,
+      &quot;externalId&quot;: null,
+      &quot;metadata&quot;: {
+        &quot;created&quot;: &quot;2025-04-01T12:01:21.000Z&quot;,
+        &quot;lastModified&quot;: &quot;2025-04-01T12:01:21.000Z&quot;,
+        &quot;location&quot;: &quot;https://developer.vbox/api/v2/administration/scim/Users/a01e3761-1cc6-443e-b297-84a1e67b786d&quot;
+      },
+      &quot;urn:ietf:params:scim:schemas:netskope:2.0:User&quot;: {
+        &quot;lastLogin&quot;: &quot;2025-04-01T12:01:21.000Z&quot;,
+        &quot;provisionedBy&quot;: &quot;SAML&quot;,
+        &quot;recordType&quot;: &quot;USER&quot;,
+        &quot;isVerified&quot;: true,
+        &quot;isLocked&quot;: false,
+        &quot;samlAssertedRoleId&quot;: 2,
+        &quot;authType&quot;: &quot;API_KEY&quot;,
+        &quot;mfa&quot;: {
+          &quot;enabled&quot;: false,
+          &quot;configs&quot;: []
+        },
+        &quot;supportPersonnelConfig&quot;: {
+          &quot;hasExplicitRole&quot;: false
+        }
+      },
+      &quot;schemas&quot;: [
+        &quot;urn:ietf:params:scim:schemas:core:2.0:User&quot;,
+        &quot;urn:ietf:params:scim:schemas:extension:netskope:2.0:User&quot;
+      ]
+    }
+  ],
+  &quot;itemsPerPage&quot;: 10,
+  &quot;schemas&quot;: [
+    &quot;urn:ietf:params:scim:api:messages:2.0:ListResponse&quot;
+  ],
+  &quot;startIndex&quot;: 1,
+  &quot;totalResults&quot;: 1
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.Resources.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;userName&gt;.*)$@</regexp>
+          <xpath>$.userName</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;active&gt;.*)$@</regexp>
+          <xpath>$.active</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/api/v2/platform/administration/scim/Users</xpath>
+  </command>
+  <command name="CREATE"/>
+  <command name="READ"/>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE"/>
+  <command name="LIST"/>
+  <displayName>AdminUsers</displayName>
+  <order>0</order>
+</ObjectDefinition>

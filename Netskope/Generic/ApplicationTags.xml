@@ -1,0 +1,124 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>ApplicationTags</name>
+    <group>SASE</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="Tag Id" name="params.object_id" startIncrement="0" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="name" name="params.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Private Application Id" name="params.privateAppId" startIncrement="0" type="ObjectRef" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="2" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="object_id" remoteVarNameMatch="object_id" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <classes>
+        <class>PrivateApplications</class>
+      </classes>
+    </variable>
+  </variables>
+  <example>
+    <content>{
+  &quot;data&quot;: {
+    &quot;tags&quot;: [
+      {
+        &quot;private_apps&quot;: [
+          {
+            &quot;allow_unauthenticated_cors&quot;: true,
+            &quot;allow_uri_bypass&quot;: true,
+            &quot;uribypass_header_value&quot;: &quot;string&quot;,
+            &quot;app_option&quot;: {},
+            &quot;clientless_access&quot;: true,
+            &quot;host&quot;: &quot;string&quot;,
+            &quot;id&quot;: 0,
+            &quot;name&quot;: &quot;string&quot;,
+            &quot;is_user_portal_app&quot;: true,
+            &quot;app_name&quot;: &quot;string&quot;,
+            &quot;app_id&quot;: 0,
+            &quot;real_host&quot;: &quot;string&quot;,
+            &quot;trust_self_signed_certs&quot;: true,
+            &quot;use_publisher_dns&quot;: true,
+            &quot;supplement_dns_for_osx&quot;: true,
+            &quot;public_host&quot;: &quot;string&quot;,
+            &quot;private_app_protocol&quot;: &quot;string&quot;,
+            &quot;updated_at&quot;: &quot;string&quot;,
+            &quot;created_at&quot;: &quot;string&quot;
+          }
+        ],
+        &quot;tag_id&quot;: 0,
+        &quot;tag_name&quot;: &quot;string&quot;,
+        &quot;referenced_private_app_count&quot;: 0,
+        &quot;referenced_publisher_count&quot;: 0
+      }
+    ]
+  },
+  &quot;status&quot;: &quot;success&quot;,
+  &quot;total&quot;: 0
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.data.tags.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;name&gt;.*)$@</regexp>
+          <xpath>$.tag_name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$.tag_id</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/api/v2/steering/apps/private/tags</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "id": "{$params.privateAppId}",
+  "tags": [
+    {literal}{{/literal}
+      "tag_name": "{$params.name}"
+    {literal}}{/literal}
+  ]
+{literal}}{/literal}]]></operation>
+    <rest>POST</rest>
+    <xpath>/api/v2/steering/apps/private/tags</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "tag_name": "{$params.name}"
+{literal}}{/literal}]]></operation>
+    <rest>PUT</rest>
+    <xpath>/api/v2/steering/apps/private/tags/{$params.object_id}</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/api/v2/steering/apps/private/tags/{$params.object_id}</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>ApplicationTags</displayName>
+  <order>0</order>
+</ObjectDefinition>

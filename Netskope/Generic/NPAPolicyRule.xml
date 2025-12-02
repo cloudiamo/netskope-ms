@@ -1,0 +1,376 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>NPAPolicyRule</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="ID" name="params.object_id" startIncrement="0" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="ruleName" name="params.ruleName" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="enabled" name="params.enabled" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="modifyBy" name="params.modifyBy" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="modifyTime" name="params.modifyTime" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="modifyType" name="params.modifyType" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="policyType" name="params.policyType" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="private-app" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="accessMethod" name="params.accessMethods.0.accessMethod" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="Client" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="externalDlp" name="params.externalDlp" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="jsonVersion" name="params.jsonVersion" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="actionName" name="params.actionName" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="block" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="allow">allow</values>
+        <values displayValue="block">block</values>
+      </values>
+    </variable>
+    <variable displayName="privateApp" name="params.privateApps.0.privateApp" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="showDlpProfileActionTable" name="params.showDlpProfileActionTable" startIncrement="0" type="Boolean" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="userType" name="params.userType" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="user" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="user" name="params.users.0.user" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="userGroup" name="params.userGroups.0.userGroup" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="version" name="params.version" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+    &quot;data&quot;: [
+        {
+            &quot;enabled&quot;: &quot;1&quot;,
+            &quot;modify_by&quot;: &quot;jzhang@stellarcyber.ai&quot;,
+            &quot;modify_time&quot;: &quot;2025-09-12 17:24:16&quot;,
+            &quot;modify_type&quot;: &quot;Created&quot;,
+            &quot;policy_type&quot;: &quot;private-app&quot;,
+            &quot;rule_data&quot;: {
+                &quot;access_method&quot;: [
+                    &quot;Client&quot;
+                ],
+                &quot;external_dlp&quot;: false,
+                &quot;json_version&quot;: 3,
+                &quot;match_criteria_action&quot;: {
+                    &quot;action_name&quot;: &quot;allow&quot;
+                },
+                &quot;policy_type&quot;: &quot;private-app&quot;,
+                &quot;privateApps&quot;: [
+                    &quot;[Finance-ERP-App]&quot;,
+                    &quot;[Finance-test7]&quot;,
+                    &quot;[Forescout-SC]&quot;,
+                    &quot;[CT-Test-App]&quot;
+                ],
+                &quot;show_dlp_profile_action_table&quot;: false,
+                &quot;userType&quot;: &quot;user&quot;,
+                &quot;users&quot;: [
+                    &quot;qiangz@stellarcyber.ai&quot;
+                ],
+                &quot;version&quot;: 1
+            },
+            &quot;rule_id&quot;: &quot;17&quot;,
+            &quot;rule_name&quot;: &quot;jzhang-policy&quot;
+        },
+        {
+            &quot;enabled&quot;: &quot;1&quot;,
+            &quot;modify_by&quot;: &quot;vinay.reddy@colortokens.com&quot;,
+            &quot;modify_time&quot;: &quot;2025-10-13 11:25:12&quot;,
+            &quot;modify_type&quot;: &quot;Edited&quot;,
+            &quot;policy_type&quot;: &quot;private-app&quot;,
+            &quot;rule_data&quot;: {
+                &quot;access_method&quot;: [
+                    &quot;Client&quot;
+                ],
+                &quot;external_dlp&quot;: false,
+                &quot;json_version&quot;: 3,
+                &quot;match_criteria_action&quot;: {
+                    &quot;action_name&quot;: &quot;allow&quot;
+                },
+                &quot;policy_type&quot;: &quot;private-app&quot;,
+                &quot;privateApps&quot;: [
+                    &quot;[CT-Test-App]&quot;
+                ],
+                &quot;show_dlp_profile_action_table&quot;: false,
+                &quot;userType&quot;: &quot;user&quot;,
+                &quot;users&quot;: [
+                    &quot;vinay.reddy@colortokens.com&quot;,
+                    &quot;chandrika.m@colortokens.com&quot;,
+                    &quot;jayaraghavendran.k@colortokens.com&quot;,
+                    &quot;karthik.murthy@colortokens.com&quot;,
+                    &quot;satyam.tyagi@colortokens.com&quot;,
+                    &quot;ganesh.murugesan@colortokens.com&quot;
+                ],
+                &quot;version&quot;: 7
+            },
+            &quot;rule_id&quot;: &quot;15&quot;,
+            &quot;rule_name&quot;: &quot;CT-NS-Policy&quot;
+        },
+        {
+            &quot;enabled&quot;: &quot;1&quot;,
+            &quot;modify_by&quot;: &quot;jose.resendiz@forescout.com&quot;,
+            &quot;modify_time&quot;: &quot;2025-07-30 16:52:53&quot;,
+            &quot;modify_type&quot;: &quot;Edited&quot;,
+            &quot;policy_type&quot;: &quot;private-app&quot;,
+            &quot;rule_data&quot;: {
+                &quot;access_method&quot;: [
+                    &quot;Client&quot;
+                ],
+                &quot;external_dlp&quot;: false,
+                &quot;json_version&quot;: 3,
+                &quot;match_criteria_action&quot;: {
+                    &quot;action_name&quot;: &quot;allow&quot;
+                },
+                &quot;policy_type&quot;: &quot;private-app&quot;,
+                &quot;privateApps&quot;: [
+                    &quot;[Forescout-SC]&quot;
+                ],
+                &quot;show_dlp_profile_action_table&quot;: false,
+                &quot;userType&quot;: &quot;user&quot;,
+                &quot;users&quot;: [
+                    &quot;jose.resendiz@forescout.com&quot;
+                ],
+                &quot;version&quot;: 3
+            },
+            &quot;rule_id&quot;: &quot;14&quot;,
+            &quot;rule_name&quot;: &quot;Forescout-Policy&quot;
+        },
+        {
+            &quot;enabled&quot;: &quot;1&quot;,
+            &quot;modify_by&quot;: &quot;chris.heffner@colortokens.com&quot;,
+            &quot;modify_time&quot;: &quot;2025-10-16 19:52:19&quot;,
+            &quot;modify_type&quot;: &quot;Created&quot;,
+            &quot;policy_type&quot;: &quot;private-app&quot;,
+            &quot;rule_data&quot;: {
+                &quot;access_method&quot;: [
+                    &quot;Client&quot;
+                ],
+                &quot;external_dlp&quot;: false,
+                &quot;json_version&quot;: 3,
+                &quot;match_criteria_action&quot;: {
+                    &quot;action_name&quot;: &quot;allow&quot;
+                },
+                &quot;policy_type&quot;: &quot;private-app&quot;,
+                &quot;privateApps&quot;: [
+                    &quot;[CT-Test-App]&quot;
+                ],
+                &quot;show_dlp_profile_action_table&quot;: false,
+                &quot;userType&quot;: &quot;user&quot;,
+                &quot;users&quot;: [
+                    &quot;vinay.reddy@colortokens.com&quot;
+                ],
+                &quot;version&quot;: 1
+            },
+            &quot;rule_id&quot;: &quot;18&quot;,
+            &quot;rule_name&quot;: &quot;CT-Test-Policy_Private&quot;
+        },
+        {
+            &quot;enabled&quot;: &quot;1&quot;,
+            &quot;modify_by&quot;: &quot;vinay.reddy@colortokens.com&quot;,
+            &quot;modify_time&quot;: &quot;2025-10-29 11:13:49&quot;,
+            &quot;modify_type&quot;: &quot;Created&quot;,
+            &quot;policy_type&quot;: &quot;private-app&quot;,
+            &quot;rule_data&quot;: {
+                &quot;access_method&quot;: [
+                    &quot;Client&quot;
+                ],
+                &quot;external_dlp&quot;: false,
+                &quot;json_version&quot;: 3,
+                &quot;match_criteria_action&quot;: {
+                    &quot;action_name&quot;: &quot;allow&quot;
+                },
+                &quot;policy_type&quot;: &quot;private-app&quot;,
+                &quot;privateApps&quot;: [
+                    &quot;[CT-WEB-APP-NGINX]&quot;
+                ],
+                &quot;show_dlp_profile_action_table&quot;: false,
+                &quot;userType&quot;: &quot;user&quot;,
+                &quot;users&quot;: [
+                    &quot;vinay.reddy@colortokens.com&quot;
+                ],
+                &quot;version&quot;: 1
+            },
+            &quot;rule_id&quot;: &quot;19&quot;,
+            &quot;rule_name&quot;: &quot;CT-WEB-APP-NGINX&quot;
+        }
+    ],
+    &quot;status&quot;: &quot;success&quot;
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.data.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$.rule_id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;ruleName&gt;.*)$@</regexp>
+          <xpath>$.rule_name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;enabled&gt;.*)$@</regexp>
+          <xpath>$.enabled</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;modifyBy&gt;.*)$@</regexp>
+          <xpath>$.modify_by</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;modifyTime&gt;.*)$@</regexp>
+          <xpath>$.modify_time</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;modifyType&gt;.*)$@</regexp>
+          <xpath>$.modify_type</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;policyType&gt;.*)$@</regexp>
+          <xpath>$.policy_type</xpath>
+        </line>
+        <line>
+          <array name="accessMethods">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;accessMethod&gt;.*)$@</regexp>
+                <xpath>$.access_method</xpath>
+              </line>
+            </lines>
+            <xpath>$.rule_data.access_method.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;externalDlp&gt;.*)$@</regexp>
+          <xpath>$.rule_data.external_dlp</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;jsonVersion&gt;.*)$@</regexp>
+          <xpath>$.rule_data.json_version</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;actionName&gt;.*)$@</regexp>
+          <xpath>$.rule_data.match_criteria_action.action_name</xpath>
+        </line>
+        <line>
+          <array name="privateApps">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;privateApp&gt;.*)$@</regexp>
+                <xpath>$.rule_data.privateApps</xpath>
+              </line>
+            </lines>
+            <xpath>$.rule_data.privateApps.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;showDlpProfileActionTable&gt;.*)$@</regexp>
+          <xpath>$.rule_data.show_dlp_profile_action_table</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;userType&gt;.*)$@</regexp>
+          <xpath>$.rule_data.userType</xpath>
+        </line>
+        <line>
+          <array name="users">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;user&gt;.*)$@</regexp>
+                <xpath>$.rule_data.users</xpath>
+              </line>
+            </lines>
+            <xpath>$.rule_data.users.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;version&gt;.*)$@</regexp>
+          <xpath>$.rule_data.version</xpath>
+        </line>
+        <line>
+          <array name="userGroups">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;userGroup&gt;.*)$@</regexp>
+                <xpath>$.rule_data.userGroups</xpath>
+              </line>
+            </lines>
+            <xpath>$.rule_data.userGroups.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/api/v2/policy/npa/rules</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "rule_name": "{$params.ruleName}",
+  "rule_data": {literal}{{/literal}
+   {if !empty($params.users)}
+    "users": [
+    {foreach $params.users as $us}
+       "{$us.user}"{if !$us@last}, {/if}
+    {/foreach}
+    ],
+    {/if}
+    {if !empty($params.userGroups)}
+    "userGroups": [
+    {foreach $params.userGroups as $usg}
+       "{$usg.userGroup}"{if !$usg@last}, {/if}
+    {/foreach}
+    ],
+    {/if}
+    "userType": "{$params.userType}",
+    "access_method": [
+    {foreach $params.accessMethods as $acm} 
+    "{$acm.accessMethod}"{if !$acm@last}, {/if}  
+    {/foreach}
+    ],
+    "policy_type": "{$params.policyType}",
+    {if !empty($params.privateApps)}
+    "privateApps": [
+      {foreach $params.privateApps as $pvapp}
+       "{$pvapp.privateApp}"{if !$pvapp@last}, {/if}
+    {/foreach}
+    ]
+    {/if},
+    "match_criteria_action": {literal}{{/literal}
+      "action_name": "{$params.actionName}"
+    {literal}}{/literal}
+  {literal}}{/literal},
+  "enabled": "{$params.enabled}"
+{literal}}{/literal}]]></operation>
+    <rest>POST</rest>
+    <xpath>/api/v2/policy/npa/rules</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE"/>
+  <command name="LIST"/>
+  <displayName>NPAPolicyRule</displayName>
+  <order>0</order>
+</ObjectDefinition>

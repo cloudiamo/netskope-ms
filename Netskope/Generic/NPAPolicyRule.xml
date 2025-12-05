@@ -65,8 +65,12 @@
           <selector>params.actionName</selector>
           <isUniqueGlobal>false</isUniqueGlobal>
         </behaviour>
-        <behaviour arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" editable="false" visible="true" displayName="template" displayOrder="0" maxLength="100" isMandatory="false" isUserLocked="false" name="params.template" selectorValue="block" startIncrement="0" type="String" default="block_page.html" localVarToFilter="" remoteVarToFilter="" uniqueItemsInDropDownList="false">
+        <behaviour arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" editable="false" visible="true" displayName="template" displayOrder="0" maxLength="100" isMandatory="false" isUserLocked="false" name="params.template" selectorValue="block" startIncrement="0" type="String" default="Default Template" localVarToFilter="" remoteVarToFilter="" uniqueItemsInDropDownList="false">
           <compositeKey>false</compositeKey>
+          <values>
+            <values displayValue="Default Template">Default Template</values>
+            <values displayValue="IPS Default Template">IPS Default Template</values>
+          </values>
           <codeLanguage></codeLanguage>
           <defaultValueLong/>
           <description></description>

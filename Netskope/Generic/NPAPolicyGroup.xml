@@ -2,7 +2,7 @@
   <information>
     <icon>none</icon>
     <description>Manage NPA (Network Private Access) policy groups, including metadata and administrative attributes</description>
-    <displayField>object_id</displayField>
+    <displayField>group_name</displayField>
     <order>0</order>
     <visibility/>
     <wfConstraintsPath></wfConstraintsPath>

@@ -1,8 +1,8 @@
 <ObjectDefinition>
   <information>
     <icon>none</icon>
-    <description></description>
-    <displayField>object_id</displayField>
+    <description>Manage NPA (Network Private Access) policy groups, including metadata and administrative attributes</description>
+    <displayField>group_name</displayField>
     <order>0</order>
     <visibility/>
     <wfConstraintsPath></wfConstraintsPath>

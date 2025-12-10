@@ -41,7 +41,11 @@
         <values displayValue="regex">regex</values>
       </values>
     </variable>
+<<<<<<< Updated upstream
     <variable displayName="url" name="params.data_urls.0.url" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+=======
+    <variable displayName="url" name="params.data_urls.0.url" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="200" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+>>>>>>> Stashed changes
   </variables>
   <example>
     <content>[
@@ -209,6 +213,22 @@
     <xpath>/api/v2/policy/urllist/{$params.object_id}</xpath>
   </command>
   <command name="LIST"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "name": "{$params.name}",
+  "data":
+  {literal}{{/literal}
+    "urls": [
+      {foreach $params.data_urls.0.url as $url}
+        "{$url}"{if !$url@last}, {/if}
+      {/foreach}
+    ],
+    "type": "{$params.data_type}"
+  {literal}}{/literal}
+{literal}}{/literal}]]></operation>
+    <rest>POST</rest>
+    <xpath>/api/v2/policy/urllist</xpath>
+  </command>
   <displayName>URL_List</displayName>
   <order>0</order>
 </ObjectDefinition>

@@ -2,7 +2,11 @@
   <information>
     <icon>none</icon>
     <description></description>
+<<<<<<< Updated upstream
     <displayField>object_id</displayField>
+=======
+    <displayField>app_name</displayField>
+>>>>>>> Stashed changes
     <order>0</order>
     <visibility/>
     <wfConstraintsPath></wfConstraintsPath>
@@ -15,7 +19,7 @@
     <maxInstances>0</maxInstances>
     <relatedObjects></relatedObjects>
     <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
-    <name>private applications</name>
+    <name>Private Applications</name>
     <group>SASE</group>
     <importonce>false</importonce>
     <importrank>0</importrank>
@@ -317,9 +321,28 @@
   </command>
   <command name="READ"/>
   <command name="UPDATE">
-    <operation><![CDATA[]]></operation>
-    <rest></rest>
-    <xpath></xpath>
+    <operation><![CDATA[{literal}{{/literal}
+  "app_name": "{$params.app_name}",
+  "host": "{$params.host}",
+  "protocols": [
+    {foreach $params.protocols as $protocol}
+    {literal}{{/literal}
+      "type": "{$protocol.transport}",
+      "port": "{$protocol.port}"
+    {literal}}{/literal}{if !$protocol@last},{/if}
+    {/foreach}
+  ],
+  "publishers": [
+    {foreach $params.service_publisher_assignments as $publisher}
+    {literal}{{/literal}
+      "publisher_id": "{$Publishers.{$publisher.publisher_id}.object_id}",
+      "publisher_name": "{$Publishers.{$publisher.publisher_id}.publisher_name}"
+    {literal}}{/literal}{if !$publisher@last},{/if}
+    {/foreach}
+  ]
+{literal}}{/literal}]]></operation>
+    <rest>PATCH</rest>
+    <xpath>/api/v2/steering/apps/private/{$params.object_id}</xpath>
   </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE">
@@ -328,6 +351,6 @@
     <xpath>/api/v2/steering/apps/private/{$params.object_id}</xpath>
   </command>
   <command name="LIST"/>
-  <displayName>private applications</displayName>
+  <displayName>Private Applications</displayName>
   <order>0</order>
 </ObjectDefinition>

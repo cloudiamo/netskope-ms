@@ -2,11 +2,7 @@
   <information>
     <icon>none</icon>
     <description></description>
-<<<<<<< Updated upstream
-    <displayField>object_id</displayField>
-=======
     <displayField>app_name</displayField>
->>>>>>> Stashed changes
     <order>0</order>
     <visibility/>
     <wfConstraintsPath></wfConstraintsPath>

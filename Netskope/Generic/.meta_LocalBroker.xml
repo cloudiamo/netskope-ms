@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadata>
+    <map>
+        <entry>
+            <key>TYPE</key>
+            <value>FILE</value>
+        </entry>
+        <entry>
+            <key>REPOSITORY</key>
+            <value>CommandDefinition</value>
+        </entry>
+        <entry>
+            <key>COMMENT</key>
+            <value>string</value>
+        </entry>
+        <entry>
+            <key>MANUFACTURER</key>
+            <value>12032025</value>
+        </entry>
+        <entry>
+            <key>FILE_TYPE</key>
+            <value>text</value>
+        </entry>
+        <entry>
+            <key>TAG</key>
+            <value>string</value>
+        </entry>
+        <entry>
+            <key>MODEL</key>
+            <value>12032025</value>
+        </entry>
+        <entry>
+            <key>DISPLAYNAME</key>
+            <value>LocalBroker.xml</value>
+        </entry>
+        <entry>
+            <key>DATE_CREATION</key>
+            <value>1764076865291</value>
+        </entry>
+        <entry>
+            <key>DATE_MODIFICATION</key>
+            <value>1765384552153</value>
+        </entry>
+    </map>
+</metadata>

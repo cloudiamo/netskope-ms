@@ -14,32 +14,24 @@
             <value>string</value>
         </entry>
         <entry>
-            <key>TAG</key>
-            <value>string</value>
+            <key>MANUFACTURER</key>
+            <value>12032025</value>
         </entry>
         <entry>
             <key>FILE_TYPE</key>
             <value>text</value>
         </entry>
         <entry>
-            <key>MODEL</key>
-            <value>12032025</value>
+            <key>TAG</key>
+            <value>string</value>
         </entry>
         <entry>
-            <key>MANUFACTURER</key>
+            <key>MODEL</key>
             <value>12032025</value>
         </entry>
         <entry>
             <key>DISPLAYNAME</key>
             <value>ApplicationTags.xml</value>
-        </entry>
-        <entry>
-            <key>DATE_CREATION</key>
-            <value>1764153233767</value>
-        </entry>
-        <entry>
-            <key>DATE_MODIFICATION</key>
-            <value>1764171880340</value>
         </entry>
     </map>
 </metadata>

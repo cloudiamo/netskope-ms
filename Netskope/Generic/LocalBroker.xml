@@ -1,0 +1,169 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>LocalBroker</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="0" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="name" name="params.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="common_name" name="params.common_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="city name" name="params.city_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="true" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="Dublin">Dublin</values>
+        <values displayValue="Grenbole">Grenbole</values>
+        <values displayValue="Paris">Paris</values>
+      </values>
+    </variable>
+    <variable displayName="region name" name="params.region_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="Europe" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="country name" name="params.country_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="Ireland">Ireland</values>
+        <values displayValue="France">France</values>
+      </values>
+    </variable>
+    <variable displayName="latitude" name="params.latitude" startIncrement="0" type="Integer" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="53.34410400" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="longitude" name="params.longitude" startIncrement="0" type="Integer" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="-6.26749370" isMandatory="true" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+  &quot;data&quot;: [
+    {
+      &quot;common_name&quot;: &quot;string&quot;,
+      &quot;id&quot;: 0,
+      &quot;name&quot;: &quot;string&quot;,
+      &quot;registered&quot;: true,
+      &quot;city_name&quot;: &quot;string&quot;,
+      &quot;region_name&quot;: &quot;string&quot;,
+      &quot;country_name&quot;: &quot;string&quot;,
+      &quot;country_code&quot;: &quot;string&quot;,
+      &quot;location_id&quot;: &quot;string&quot;,
+      &quot;discovered_public_ip&quot;: &quot;198.51.100.42&quot;,
+      &quot;discovered_private_ip&quot;: &quot;198.51.100.42&quot;,
+      &quot;custom_public_ip&quot;: &quot;198.51.100.42&quot;,
+      &quot;custom_private_ip&quot;: &quot;198.51.100.42&quot;,
+      &quot;latitude&quot;: 0,
+      &quot;longitude&quot;: 0,
+      &quot;labels&quot;: [
+        {
+          &quot;label_id&quot;: &quot;string&quot;,
+          &quot;permission&quot;: &quot;string&quot;
+        }
+      ]
+    }
+  ],
+  &quot;status&quot;: &quot;success&quot;,
+  &quot;total&quot;: 0
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.data.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;name&gt;.*)$@</regexp>
+          <xpath>$.name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$.id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;common_name&gt;.*)$@</regexp>
+          <xpath>$.common_name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;city_name&gt;.*)$@</regexp>
+          <xpath>$.city_name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;region_name&gt;.*)$@</regexp>
+          <xpath>$.region_name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;country_name&gt;.*)$@</regexp>
+          <xpath>$.country_name</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;latitude&gt;.*)$@</regexp>
+          <xpath>$.latitude</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;longitude&gt;.*)$@</regexp>
+          <xpath>$.longitude</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/api/v2/infrastructure/lbrokers</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "name": "{$params.name}",
+  "city_name": "{$params.city_name}",
+  "region_name": "{$params.region_name}",
+  "country_name": "{$params.country_name}",
+  "latitude": {$params.latitude},
+  "longitude": {$params.longitude},
+  "custom_public_ip": "203.0.113.42",
+  "custom_private_ip": "192.168.19.119",
+  "label_ids": [
+    "867422fb-cad3-4a62-91aa-976f6b8b938e"
+  ],
+  "access_via_public_ip": "NONE"
+{literal}}{/literal}]]></operation>
+    <rest>POST</rest>
+    <xpath>/api/v2/infrastructure/lbrokers</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "name": "{$params.name}",
+  "city_name": "{$params.city_name}",
+  "region_name": "{$params.region_name}",
+  "country_name": "{$params.country_name}",
+  "latitude": {$params.latitude},
+  "longitude": {$params.longitude},
+  "custom_public_ip": "203.0.113.42",
+  "custom_private_ip": "192.168.19.119",
+  "label_ids": [
+    "867422fb-cad3-4a62-91aa-976f6b8b938e"
+  ],
+  "access_via_public_ip": "NONE"
+{literal}}{/literal}]]></operation>
+    <rest>PUT</rest>
+    <xpath>/api/v2/infrastructure/lbrokers/{$params.object_id}</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <rest>DELETE</rest>
+    <xpath>/api/v2/infrastructure/lbrokers/{$params.object_id}</xpath>
+  </command>
+  <command name="LIST"/>
+  <displayName>LocalBroker</displayName>
+  <order>0</order>
+</ObjectDefinition>

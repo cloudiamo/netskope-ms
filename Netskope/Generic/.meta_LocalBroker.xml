@@ -10,16 +10,16 @@
             <value>CommandDefinition</value>
         </entry>
         <entry>
-            <key>COMMENT</key>
-            <value>string</value>
-        </entry>
-        <entry>
             <key>MANUFACTURER</key>
             <value>12032025</value>
         </entry>
         <entry>
             <key>FILE_TYPE</key>
             <value>text</value>
+        </entry>
+        <entry>
+            <key>COMMENT</key>
+            <value>string</value>
         </entry>
         <entry>
             <key>TAG</key>
@@ -31,7 +31,7 @@
         </entry>
         <entry>
             <key>DISPLAYNAME</key>
-            <value>ApplicationTags.xml</value>
+            <value>LocalBroker.xml</value>
         </entry>
     </map>
 </metadata>

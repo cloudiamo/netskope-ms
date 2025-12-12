@@ -10,16 +10,16 @@
             <value>CommandDefinition</value>
         </entry>
         <entry>
-            <key>COMMENT</key>
-            <value>string</value>
-        </entry>
-        <entry>
             <key>MANUFACTURER</key>
             <value>12032025</value>
         </entry>
         <entry>
             <key>FILE_TYPE</key>
             <value>text</value>
+        </entry>
+        <entry>
+            <key>COMMENT</key>
+            <value>string</value>
         </entry>
         <entry>
             <key>TAG</key>
@@ -32,14 +32,6 @@
         <entry>
             <key>DISPLAYNAME</key>
             <value>LocalBroker.xml</value>
-        </entry>
-        <entry>
-            <key>DATE_CREATION</key>
-            <value>1764076865291</value>
-        </entry>
-        <entry>
-            <key>DATE_MODIFICATION</key>
-            <value>1765384552153</value>
         </entry>
     </map>
 </metadata>

@@ -1,0 +1,210 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>username</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>Device</name>
+    <group>sase|opslab</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="object_id" name="params.object_id" startIncrement="1" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="device_uuid" name="params.device_uuid" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Username" name="params.username" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Hostname" name="params.hostname" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Private Access Status" name="params.npa_status_private_access" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="Enabled">Enabled</values>
+        <values displayValue="Disabled">Disabled</values>
+      </values>
+    </variable>
+    <variable displayName="Internet Security Status" name="params.internet_security_status" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="Enabled">Enabled</values>
+        <values displayValue="Disabled">Disabled</values>
+      </values>
+    </variable>
+    <variable displayName="OS Platform" name="params.os_platform" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="true" isEditLocked="true" isGrouped="false" isSearchable="false" isUniqueGlobal="false">
+      <values>
+        <values displayValue="Windows">Windows</values>
+        <values displayValue="Mac">Mac</values>
+        <values displayValue="Linux">Linux</values>
+      </values>
+    </variable>
+  </variables>
+  <example>
+    <content>{
+    &quot;result&quot;: [
+        {
+            &quot;_cts&quot;: 1755620577,
+            &quot;_enriched&quot;: true,
+            &quot;_gef_meta&quot;: {
+                &quot;_event_id&quot;: &quot;e09b49ce-6697-43e3-9e8f-ba93fb26a575&quot;,
+                &quot;_home_pop&quot;: &quot;US-DFW3&quot;,
+                &quot;_service_id&quot;: &quot;service-nsclient&quot;,
+                &quot;_tenant_id&quot;: 22901,
+                &quot;timestamp&quot;: 1755620573
+            },
+            &quot;_id&quot;: &quot;f524b754-d517-4a6b-ae2e-c6bc5d4ac4d6&quot;,
+            &quot;_insertion_epoch_timestamp&quot;: 1755620578,
+            &quot;_its&quot;: 1755620576,
+            &quot;_migrated&quot;: true,
+            &quot;_service_identifier&quot;: &quot;service-nsclient&quot;,
+            &quot;_skip_geoip_lookup&quot;: &quot;yes&quot;,
+            &quot;_translated&quot;: true,
+            &quot;client_install_time&quot;: 1755619785,
+            &quot;client_version&quot;: &quot;129.0.0.2471&quot;,
+            &quot;cn&quot;: 1,
+            &quot;device_hash&quot;: &quot;6182d36f814aa9d1df9d8317&quot;,
+            &quot;device_id&quot;: &quot;Ax5sWihufhqQeBeqCxT6_7CF95078-EEFB-50CB-25A5-8F635C671A95&quot;,
+            &quot;epdlp&quot;: {
+                &quot;cpu&quot;: &quot;&quot;,
+                &quot;criticalErrorsCount&quot;: &quot;&quot;,
+                &quot;driverVersion&quot;: &quot;&quot;,
+                &quot;enabledStatus&quot;: &quot;&quot;,
+                &quot;infoErrorsCount&quot;: &quot;&quot;,
+                &quot;memoryInBytes&quot;: &quot;&quot;,
+                &quot;policyConfigVersion&quot;: &quot;&quot;,
+                &quot;runningStatus&quot;: &quot;&quot;,
+                &quot;serviceVersion&quot;: &quot;&quot;,
+                &quot;timestampInUnix&quot;: &quot;&quot;
+            },
+            &quot;guid&quot;: &quot;f524b754-d517-4a6b-ae2e-c6bc5d4ac4d6&quot;,
+            &quot;host_info&quot;: {
+                &quot;client_config&quot;: &quot;Forescout_Client_Config&quot;,
+                &quot;device_make&quot;: &quot;Apple&quot;,
+                &quot;device_model&quot;: &quot;VMware7,1&quot;,
+                &quot;hostname&quot;: &quot;monterey-template (4)&quot;,
+                &quot;last_update_timestamp&quot;: 1755619836,
+                &quot;mac_addresses&quot;: [
+                    &quot;00:50:56:B8:DF:34&quot;
+                ],
+                &quot;managementID&quot;: &quot;4238BA390AEF513B7F5630E98BD97175&quot;,
+                &quot;nsdeviceuid&quot;: &quot;7CF95078-EEFB-50CB-25A5-8F635C671A95&quot;,
+                &quot;os&quot;: &quot;Mac&quot;,
+                &quot;os_version&quot;: &quot;12.5.1&quot;,
+                &quot;serial_number&quot;: &quot;VMVPHhkbapu3&quot;,
+                &quot;steering_config&quot;: &quot;FS-Steer&quot;
+            },
+            &quot;hostname&quot;: &quot;monterey-template (4)&quot;,
+            &quot;last_connected_from_private_ip&quot;: &quot;0.0.0.0&quot;,
+            &quot;last_event_timestamp&quot;: 1755620573,
+            &quot;last_seen_device_event&quot;: {
+                &quot;actor&quot;: &quot;System&quot;,
+                &quot;event&quot;: &quot;Uninstalled&quot;,
+                &quot;npa_status&quot;: &quot;Disabled&quot;,
+                &quot;service_name&quot;: &quot;Internet Security&quot;,
+                &quot;status&quot;: &quot;Disabled&quot;,
+                &quot;status_v2&quot;: &quot;Uninstalled&quot;,
+                &quot;timestamp&quot;: 1755620573
+            },
+            &quot;organization_unit&quot;: [
+                &quot;&quot;
+            ],
+            &quot;timestamp&quot;: 1755620573,
+            &quot;ty&quot;: &quot;client_status&quot;,
+            &quot;user_added_time&quot;: 0,
+            &quot;user_info&quot;: {
+                &quot;device_classification_custom_status&quot;: &quot;unknown&quot;,
+                &quot;device_classification_custom_status_id&quot;: -1,
+                &quot;device_classification_status&quot;: &quot;Unknown&quot;,
+                &quot;orgkey&quot;: &quot;1huy3p1n7rndirjYWgxc&quot;,
+                &quot;userkey&quot;: &quot;Ax5sWihufhqQeBeqCxT6&quot;,
+                &quot;username&quot;: &quot;jose.resendiz@forescout.com&quot;
+            },
+            &quot;user_source&quot;: 0,
+            &quot;user_status&quot;: 0,
+            &quot;usergroup&quot;: [
+                &quot;Forescout_Users&quot;
+            ],
+            &quot;username&quot;: &quot;jose.resendiz@forescout.com&quot;
+        }
+        ],
+    &quot;status&quot;: {
+        &quot;count&quot;: 51,
+        &quot;execution&quot;: &quot;SUCCESS&quot;,
+        &quot;message&quot;: &quot;Executed Successfully&quot;,
+        &quot;status_code&quot;: 200
+		}
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[GET]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.result.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+          <xpath>$._id</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;username&gt;.*)$@</regexp>
+          <xpath>$.username</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;hostname&gt;.*)$@</regexp>
+          <xpath>$.hostname</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;npa_status_private_access&gt;.*)$@</regexp>
+          <xpath>$.last_seen_device_event.npa_status</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;internet_security_status&gt;.*)$@</regexp>
+          <xpath>$.last_seen_device_event.status</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;os_platform&gt;.*)$@</regexp>
+          <xpath>$.host_info.os</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;device_uuid&gt;.*)$@</regexp>
+          <xpath>$.host_info.nsdeviceuid</xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>/api/v2/events/datasearch/clientstatus</xpath>
+  </command>
+  <command name="CREATE"/>
+  <command name="READ"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "client_status": 0,
+  "client_status_v2": 0,
+  "clients": [
+    {literal}{{/literal}
+      "userid": "{$params.object_id}",
+    {literal}}{/literal}
+  ],
+  "npa_status": 0
+{literal}}{/literal}]]></operation>
+    <rest>POST</rest>
+    <xpath>/api/v2/devices/support/updateclientstatus</xpath>
+  </command>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE"/>
+  <command name="LIST"/>
+  <displayName>Device</displayName>
+  <order>0</order>
+</ObjectDefinition>

@@ -4,7 +4,6 @@
     <description>Retrieve the list of Netskope Points of Presence (PoPs) available for establishing IPSec tunnels.</description>
     <displayField>pop_label</displayField>
     <order>0</order>
-    <visibility/>
     <wfConstraintsPath></wfConstraintsPath>
     <configType>json</configType>
     <createTemplateId></createTemplateId>
@@ -192,7 +191,6 @@
   </example>
   <command name="IMPORT">
     <operation><![CDATA[GET]]></operation>
-    <post_template>{assign_object_variable var=&quot;pop_label&quot; value=&quot;{$params.object_id}-{$params.region_name}&quot;}</post_template>
     <parser>
       <section>
         <regexp>@^\s \s*$@</regexp>
@@ -202,34 +200,42 @@
         <line>
           <regexp>@^(?&lt;id&gt;.*)$@</regexp>
           <xpath>$[&apos;id&apos;]</xpath>
+          <description></description>
         </line>
         <line>
           <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
           <xpath>$[&apos;name&apos;]</xpath>
+          <description></description>
         </line>
         <line>
           <regexp>@^(?&lt;region_name&gt;.*)$@</regexp>
           <xpath>$[&apos;region&apos;]</xpath>
+          <description></description>
         </line>
         <line>
           <regexp>@^(?&lt;location_site&gt;.*)$@</regexp>
           <xpath>$[&apos;location&apos;]</xpath>
+          <description></description>
         </line>
         <line>
           <regexp>@^(?&lt;gateway_ip&gt;.*)$@</regexp>
           <xpath>$[&apos;gateway&apos;]</xpath>
+          <description></description>
         </line>
         <line>
           <regexp>@^(?&lt;probeip_address&gt;.*)$@</regexp>
           <xpath>$[&apos;probeip&apos;]</xpath>
+          <description></description>
         </line>
         <line>
           <regexp>@^(?&lt;distance_value&gt;.*)$@</regexp>
           <xpath>$[&apos;distance&apos;]</xpath>
+          <description></description>
         </line>
         <line>
           <regexp>@^(?&lt;acceptingtunnels_boolean&gt;.*)$@</regexp>
           <xpath>$[&apos;acceptingtunnels&apos;]</xpath>
+          <description></description>
         </line>
         <line>
           <array name="options">
@@ -240,32 +246,39 @@
                     <line>
                       <regexp>@^(?&lt;ikeversion_value&gt;.*)$@</regexp>
                       <xpath>$[&apos;ikeversion&apos;]</xpath>
+                      <description></description>
                     </line>
                     <line>
                       <regexp>@^(?&lt;encryptionalgo_names&gt;.*)$@</regexp>
                       <xpath>$[&apos;encryptionalgo&apos;]</xpath>
+                      <description></description>
                     </line>
                     <line>
                       <regexp>@^(?&lt;intergrityalgo_names&gt;.*)$@</regexp>
                       <xpath>$[&apos;intergrityalgo&apos;]</xpath>
+                      <description></description>
                     </line>
                     <line>
                       <regexp>@^(?&lt;dhgroups&gt;.*)$@</regexp>
                       <xpath>$[&apos;dhgroup&apos;]</xpath>
+                      <description></description>
                     </line>
                     <line>
                       <regexp>@^(?&lt;salifetime&gt;.*)$@</regexp>
                       <xpath>$[&apos;salifetime&apos;]</xpath>
+                      <description></description>
                     </line>
                     <line>
                       <regexp>@^(?&lt;dpd_boolean&gt;.*)$@</regexp>
                       <xpath>$[&apos;dpd&apos;]</xpath>
+                      <description></description>
                     </line>
                   </lines>
                   <xpath>$[&apos;phase1&apos;]</xpath>
                 </array>
                 <regexp></regexp>
                 <xpath></xpath>
+                <description></description>
               </line>
               <line>
                 <array name="phase2">
@@ -273,50 +286,61 @@
                     <line>
                       <regexp>@^(?&lt;encryptionnalgo_names&gt;.*)$@</regexp>
                       <xpath>$[&apos;encryptionnalgo&apos;]</xpath>
+                      <description></description>
                     </line>
                     <line>
                       <regexp>@^(?&lt;integrityalgo_names&gt;.*)$@</regexp>
                       <xpath>$[&apos;integrityalgo&apos;]</xpath>
+                      <description></description>
                     </line>
                     <line>
                       <regexp>@^(?&lt;dhgroup_values&gt;.*)$@</regexp>
                       <xpath>$[&apos;dhgroup&apos;]</xpath>
+                      <description></description>
                     </line>
                     <line>
                       <regexp>@^(?&lt;pfs_boolean&gt;.*)$@</regexp>
                       <xpath>$[&apos;pfs&apos;]</xpath>
+                      <description></description>
                     </line>
                     <line>
                       <regexp>@^(?&lt;salifetime&gt;.*)$@</regexp>
                       <xpath>$[&apos;salifetime&apos;]</xpath>
+                      <description></description>
                     </line>
                   </lines>
                   <xpath>$[&apos;phase2&apos;]</xpath>
                 </array>
                 <regexp></regexp>
                 <xpath></xpath>
+                <description></description>
               </line>
               <line>
                 <regexp>@^(?&lt;bandwidth_values&gt;.*)$@</regexp>
                 <xpath>$[&apos;bandwidth&apos;]</xpath>
+                <description></description>
               </line>
             </lines>
             <xpath>$[&apos;options&apos;]</xpath>
           </array>
           <regexp></regexp>
           <xpath></xpath>
+          <description></description>
         </line>
         <line>
           <regexp>@^(?&lt;releasedeploymentday&gt;.*)$@</regexp>
           <xpath>$.releasedeploymentday</xpath>
+          <description></description>
         </line>
         <line>
           <regexp>@^(?&lt;bandwidth&gt;.*)$@</regexp>
           <xpath>$.bandwidth</xpath>
+          <description></description>
         </line>
       </lines>
     </parser>
-    <xpath>/api/v2/steering/ipsec/pops{if isset($params.lat)}?lat={$params.lat}&amp;long={$params.long}&amp;limit={$params.limite}{/if}</xpath>
+    <xpath>/api/v2/steering/ipsec/pops?{if isset($params.limit)}limit={$params.limit}{else}limit=200{/if}{if isset($params.lat)}&amp;lat={$params.lat}&amp;long={$params.long}{/if}</xpath>
+    <post_template>{assign_object_variable var=&quot;pop_label&quot; value=&quot;{$params.object_id}-{$params.region_name}&quot;}</post_template>
   </command>
   <command name="CREATE"/>
   <command name="READ"/>
@@ -324,6 +348,6 @@
   <command name="CONSTRAINT"/>
   <command name="DELETE"/>
   <command name="LIST"/>
-  <displayName>IPSec POP Geo Loc search</displayName>
+  <displayName>IPSec POP</displayName>
   <order>0</order>
 </ObjectDefinition>

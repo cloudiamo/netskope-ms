@@ -324,6 +324,6 @@
   <command name="CONSTRAINT"/>
   <command name="DELETE"/>
   <command name="LIST"/>
-  <displayName>IPSec POP Geo Loc search</displayName>
+  <displayName>IPSec POP</displayName>
   <order>0</order>
 </ObjectDefinition>

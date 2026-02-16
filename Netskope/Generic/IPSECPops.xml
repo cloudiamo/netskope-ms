@@ -337,11 +337,19 @@
           <xpath>$.bandwidth</xpath>
           <description></description>
         </line>
+        <line>
+          <regexp>@^(?&lt;releasedeploymentday&gt;.*)$@</regexp>
+          <xpath>$.releasedeploymentday</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;bandwidth&gt;.*)$@</regexp>
+          <xpath>$.bandwidth</xpath>
+        </line>
       </lines>
     </parser>
     <xpath>/api/v2/steering/ipsec/pops?{if isset($params.limit)}limit={$params.limit}{else}limit=200{/if}{if isset($params.lat)}&amp;lat={$params.lat}&amp;long={$params.long}{/if}</xpath>
     <post_template>{assign_object_variable var=&quot;pop_label&quot; value=&quot;{$params.object_id}-{$params.region_name}&quot;}</post_template>
-  </command>
+ </command>
   <command name="CREATE"/>
   <command name="READ"/>
   <command name="UPDATE"/>

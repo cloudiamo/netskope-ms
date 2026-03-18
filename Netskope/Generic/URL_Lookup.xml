@@ -1,0 +1,247 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description></description>
+    <displayField>object_id</displayField>
+    <order>0</order>
+    <visibility/>
+    <wfConstraintsPath></wfConstraintsPath>
+    <configType>json</configType>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects></relatedObjects>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
+    <name>URL Lookup</name>
+    <group>SASE|SSE</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>params._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="ID" name="params.object_id" startIncrement="0" type="AutoIncrement" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="1" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Cat ID" name="params.categories.0.id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Name" name="params.categories.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Type" name="params.categories.0.type" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Dynamic Classification" name="params.dynamic_classification" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Site" name="params.site" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="APP" name="params.app" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="URL" name="params.url" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Resolved IP" name="params.resolved_ip" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="URL ID" name="params.url_lists.0.id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="Name" name="params.url_lists.0.name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="category" name="params.category" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="11" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" default="swg" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="url" name="params.urls.0.url" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="|" groupDisplayName="" maxLength="100" displayOrder="12" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" arrayMinSizeRequired="false" frozen="false" displayNameHeader="" fullDisplayName="" isCompositeKey="false" shared="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>{
+  &quot;query&quot;: {
+    &quot;disable_dns_lookup&quot;: false,
+    &quot;category&quot;: &quot;swg&quot;,
+    &quot;urls&quot;: [
+      &quot;https://www.netskope.com&quot;,
+      &quot;https://www.airbnb.com&quot;,
+      &quot;https://www.google.com&quot;,
+      &quot;https://drive.google.com&quot;
+    ]
+  },
+  &quot;result&quot;: [
+    {
+      &quot;categories&quot;: [
+        {
+          &quot;id&quot;: &quot;26&quot;,
+          &quot;name&quot;: &quot;Security Industry&quot;,
+          &quot;type&quot;: &quot;predefined&quot;
+        },
+        {
+          &quot;id&quot;: &quot;10023&quot;,
+          &quot;name&quot;: &quot;My first category&quot;,
+          &quot;type&quot;: &quot;custom&quot;
+        }
+      ],
+      &quot;dynamic_classification&quot;: true,
+      &quot;site&quot;: &quot;netskope&quot;,
+      &quot;app&quot;: &quot;&quot;,
+      &quot;url&quot;: &quot;https://www.netskope.com&quot;,
+      &quot;resolved_ip&quot;: &quot;141.193.213.21&quot;,
+      &quot;url_lists&quot;: [
+        {
+          &quot;id&quot;: &quot;1&quot;,
+          &quot;name&quot;: &quot;My custom web list&quot;
+        }
+      ]
+    },
+    {
+      &quot;categories&quot;: [
+        {
+          &quot;id&quot;: &quot;572&quot;,
+          &quot;name&quot;: &quot;Housing and property&quot;,
+          &quot;type&quot;: &quot;predefined&quot;
+        },
+        {
+          &quot;id&quot;: &quot;10004&quot;,
+          &quot;name&quot;: &quot;Blocked IPs&quot;,
+          &quot;type&quot;: &quot;custom&quot;
+        }
+      ],
+      &quot;dynamic_classification&quot;: true,
+      &quot;site&quot;: &quot;airbnb&quot;,
+      &quot;app&quot;: &quot;&quot;,
+      &quot;url&quot;: &quot;https://www.airbnb.com&quot;,
+      &quot;resolved_ip&quot;: &quot;23.212.62.210&quot;,
+      &quot;url_lists&quot;: [
+        {
+          &quot;id&quot;: &quot;1&quot;,
+          &quot;name&quot;: &quot;My custom web list&quot;
+        },
+        {
+          &quot;id&quot;: &quot;10004&quot;,
+          &quot;name&quot;: &quot;Blocked IPs&quot;
+        }
+      ]
+    },
+    {
+      &quot;categories&quot;: [
+        {
+          &quot;id&quot;: &quot;551&quot;,
+          &quot;name&quot;: &quot;Search Engine&quot;,
+          &quot;type&quot;: &quot;predefined&quot;
+        }
+      ],
+      &quot;dynamic_classification&quot;: false,
+      &quot;site&quot;: &quot;google&quot;,
+      &quot;app&quot;: &quot;&quot;,
+      &quot;url&quot;: &quot;https://www.google.com&quot;,
+      &quot;resolved_ip&quot;: &quot;142.251.46.196&quot;,
+      &quot;url_lists&quot;: [
+        {
+          &quot;id&quot;: &quot;1&quot;,
+          &quot;name&quot;: &quot;My custom web list&quot;
+        }
+      ]
+    },
+    {
+      &quot;categories&quot;: [
+        {
+          &quot;id&quot;: &quot;7&quot;,
+          &quot;name&quot;: &quot;Cloud Storage&quot;,
+          &quot;type&quot;: &quot;predefined&quot;
+        }
+      ],
+      &quot;dynamic_classification&quot;: false,
+      &quot;site&quot;: &quot;google&quot;,
+      &quot;app&quot;: &quot;Google Drive&quot;,
+      &quot;url&quot;: &quot;https://drive.google.com&quot;,
+      &quot;resolved_ip&quot;: &quot;142.250.198.78&quot;,
+      &quot;url_lists&quot;: [
+        {
+          &quot;id&quot;: &quot;1&quot;,
+          &quot;name&quot;: &quot;My custom web list&quot;
+        }
+      ]
+    }
+  ]
+}</content>
+  </example>
+  <command name="IMPORT">
+    <operation><![CDATA[{if {$params.urls|count}>0}POST{/if} ]]></operation>
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath>$.result.*</xpath>
+      </section>
+      <lines>
+        <line>
+          <array name="categories">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;object_id&gt;.*)$@</regexp>
+                <xpath>$.id</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;name&gt;.*)$@</regexp>
+                <xpath>$.name</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;type&gt;.*)$@</regexp>
+                <xpath>$.type</xpath>
+              </line>
+            </lines>
+            <xpath>$.categories.*</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;dynamic_classification&gt;.*)$@</regexp>
+          <xpath>$.dynamic_classification</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;site&gt;.*)$@</regexp>
+          <xpath>$.site</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;app&gt;.*)$@</regexp>
+          <xpath>$.app</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;url&gt;.*)$@</regexp>
+          <xpath>$.url</xpath>
+        </line>
+        <line>
+          <regexp>@^(?&lt;resolved_ip&gt;.*)$@</regexp>
+          <xpath>$.resolved_ip</xpath>
+        </line>
+        <line>
+          <array name="url_lists">
+            <lines>
+              <line>
+                <regexp>@^(?&lt;id&gt;.*)$@</regexp>
+                <xpath>$.id</xpath>
+              </line>
+              <line>
+                <regexp>@^(?&lt;name&gt;.*)$@</regexp>
+                <xpath>$.name</xpath>
+              </line>
+            </lines>
+            <xpath>$.url_lists</xpath>
+          </array>
+          <regexp></regexp>
+          <xpath></xpath>
+        </line>
+      </lines>
+    </parser>
+    <xpath>{if {$params.urls|count}&gt;0}/api/v2/nsiq/urllookup#{literal}{{/literal}&quot;query&quot;:{literal}{{/literal}&quot;disable_dns_lookup&quot;:true,&quot;category&quot;:&quot;swg&quot;,&quot;urls&quot;:[{foreach $params.urls as $url}&quot;{$url.url|trim}&quot;{if !$url@last},{/if}{/foreach}]{literal}}{/literal}{literal}}{/literal}{/if}</xpath>
+  </command>
+  <command name="CREATE">
+    <operation><![CDATA[{literal}{{/literal}
+  "query": {literal}{{/literal}
+    "disable_dns_lookup": true,
+    "category": "{$params.category|trim}",
+    "urls": [
+      {foreach $params.urls as $url}
+        "{$url.url|trim}"{if !$url@last},{/if}
+      {/foreach}
+    ]
+  {literal}}{/literal}
+{literal}}{/literal}]]></operation>
+    <rest>POST</rest>
+    <xpath>/api/v2/nsiq/urllookup</xpath>
+  </command>
+  <command name="READ"/>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE">
+    <operation><![CDATA[!]]></operation>
+  </command>
+  <command name="LIST"/>
+  <displayName>URL Lookup</displayName>
+  <order>0</order>
+</ObjectDefinition>

@@ -21,7 +21,12 @@ fi
 cd / || exit 1
 
 if [[ -L /opt/fmc_repository/CommandDefinition/netskope-ms ]]; then
-	log_info "🍄 Removing symlink."
+	SYMLINK_TARGET=$(readlink -f /opt/fmc_repository/CommandDefinition/netskope-ms || true)
+	if [[ -n "$SYMLINK_TARGET" && -e "$SYMLINK_TARGET/.git" ]]; then
+		log_info "🌹 Skipping upgrade for fellow developer."
+		exit 0
+	fi
+	log_info "🦥 Removing symlink."
 	rm -f /opt/fmc_repository/CommandDefinition/netskope-ms
 fi
 
@@ -29,7 +34,11 @@ fi
 if [[ -e /opt/fmc_repository/netskope-ms/.git ]]; then
 	log_info "🦖 Moving existing git repository to /opt/fmc_repository/CommandDefinition for backend compatibility."
 	mkdir -p /opt/fmc_repository/CommandDefinition
-	mv /opt/fmc_repository/netskope-ms /opt/fmc_repository/CommandDefinition/
+	if [[ -e /opt/fmc_repository/CommandDefinition/netskope-ms ]]; then
+		log_info "🍄 Removing existing destination directory before move."
+		rm -rf /opt/fmc_repository/CommandDefinition/netskope-ms
+	fi
+	mv /opt/fmc_repository/netskope-ms /opt/fmc_repository/CommandDefinition/netskope-ms
 elif [[ -d /opt/fmc_repository/netskope-ms ]]; then
 	log_info "🐞 Not a git repository. Removing the directory for backend compatibility."
 	rm -rf  /opt/fmc_repository/netskope-ms

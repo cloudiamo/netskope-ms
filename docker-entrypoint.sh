@@ -23,11 +23,11 @@ cd / || exit 1
 if [[ -L /opt/fmc_repository/CommandDefinition/netskope-ms ]]; then
 	SYMLINK_TARGET=$(readlink -f /opt/fmc_repository/CommandDefinition/netskope-ms || true)
 	if [[ -n "$SYMLINK_TARGET" && -e "$SYMLINK_TARGET/.git" ]]; then
-		log_info "🌹 Skipping upgrade for fellow developer."
-		exit 0
+		log_info "🌹 Symlink and git repo found."
+	else
+		log_info "🦥 Removing symlink."
+		rm -f /opt/fmc_repository/CommandDefinition/netskope-ms
 	fi
-	log_info "🦥 Removing symlink."
-	rm -f /opt/fmc_repository/CommandDefinition/netskope-ms
 fi
 
 # for backward compatibility with old backend, move existing repository to CommandDefinition

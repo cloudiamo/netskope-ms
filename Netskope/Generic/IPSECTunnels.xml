@@ -585,21 +585,6 @@
     "bandwidth": {$params.bandwidth},
     "options":
     {literal}{{/literal}
-    "xff":
-    	{literal}{{/literal}
-		{if $params.xff_enable == true}
-        "enable": true,
-		{if isset($params.xff)}
-        "iplist": [
-			{foreach $params.xff as $ip_list}
-                "{$ip_list.ip}"{if !$ip_list@last}, {/if}
-	    	{/foreach}
-	    ]
-    	{/if}
-        {else if}
-        "enable": false
-        {/if}
-    	{literal}}{/literal}
     {if $params.rekey == true || $params.reauth == true},{/if}
     {if $params.rekey == true}
     "rekey": true{if $params.reauth == true}, {/if}
@@ -610,11 +595,11 @@
     {literal}}{/literal},
     "psk": "{$params.psk}",
     "srcidentity": "{$params.srcidentity}",
-    "encryption": "{$params.encryption}",
+    "encryption": "{$params.encryption}"
 {literal}}{/literal}
 ]]></operation>
-    <rest>/api/v2/steering/ipsec/tunnels/{$params.object_id}</rest>
-    <xpath>PATCH</xpath>
+    <rest>PATCH</rest>
+    <xpath>/api/v2/steering/ipsec/tunnels/{$params.object_id}</xpath>
   </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE">
